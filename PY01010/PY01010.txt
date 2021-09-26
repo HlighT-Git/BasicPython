@@ -1,0 +1,18 @@
+ĐẦU CUỐI
+Bài làm tốt nhất
+Viết chương trình kiểm tra xem số nguyên dương N có thỏa mãn tính chất: nếu ta lấy hai chữ số đầu và hai chữ số cuối của nó thì sẽ tạo ra số có hai chữ số giống nhau hay không?
+Input
+Dòng đầu ghi số số test (không quá 20). Mỗi test là 1 số nguyên dương N có ít nhất 4 chữ số, nhưng không quá 18 chữ số.
+Output
+Ghi ra YES hoặc NO
+Ví dụ
+Input
+Output
+3
+12321
+1234512
+10233211111
+NO
+YES
+NO
+ 

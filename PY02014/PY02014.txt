@@ -1,0 +1,16 @@
+BIẾN ĐỔI NGUYÊN TỐ
+Bài làm tốt nhất
+Cho dãy số A[] có N số nguyên dương. Người ta muốn biến đổi tất cả các số trong dãy về số nguyên tố. Tại mỗi bước, mỗi số chưa nguyên tố được phép tăng hoặc giảm 1 đơn vị để biến đổi dần về số nguyên tố gần nhất.
+Hãy tính xem cần ít nhất bao nhiêu bước cần thực hiện để biến đổi tất cả các phần tử của dãy về nguyên tố.
+Input
+Dòng đầu ghi số N là số phần tử của dãy (không quá 200).
+Dòng thứ 2 ghi N số của dãy, các giá trị đều nguyên dương và không quá 10000.
+Output
+Ghi ra số bước ít nhất tính được.
+Ví dụ
+Input
+Output
+8
+13 5 8 7 9 15 26 34
+3
+ 

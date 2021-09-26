@@ -1,0 +1,18 @@
+CHÈN XÂU
+Bài làm tốt nhất
+Cho xâu S1 và xâu S2, độ dài không quá 100.
+Hãy chèn xâu S2 vào vị trí p trong xâu S1 (vị trí ký tự đầu tiên là vị trí 1).
+Input:
+Dòng thứ nhất ghi xâu S1
+Dòng thứ hai ghi xâu S2
+Dòng thứ ba ghi số p (giá trị p đảm bảo nằm trong phạm vi xâu S1)
+Output:
+Ghi ra kết quả.
+Ví dụ:
+Input
+Output
+mon thcs2 hoc de
+ngon ngu C.
+1
+ngon ngu C.mon thcs2 hoc de
+ 

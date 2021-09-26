@@ -1,0 +1,26 @@
+KHÔI PHỤC DÃY SỐ
+Bài làm tốt nhất
+Bình có sẵn dãy số A có N phần tử và tạo ra ma trận B kích thước N*N theo quy tắc:
+B[i][i] = 0
+B[i][j] = A[i] + A[j] (với i#j)
+Bình đưa cho Nam ma trận B và đố Nam khôi phục dãy số A ban đầu.
+Hãy giúp Nam nhé.
+Input
+Dòng đầu ghi số N (1 < N <= 1000).
+N dòng tiếp theo ghi ma trận B, các số đều nguyên dương và không quá 100.000. 
+Output
+Ghi ra dãy số A tìm được trên một dòng, mỗi số cách nhau 1 khoảng trống.
+Ví dụ
+Input
+Output
+2
+0 2
+2 0
+1 1
+4
+0 3 6 7
+3 0 5 6
+6 5 0 9
+7 6 9 0
+2 1 4 5
+   

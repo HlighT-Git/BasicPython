@@ -1,0 +1,21 @@
+ĐỔI CHỖ CÁC CHỮ SỐ
+Bài làm tốt nhất
+Cho một số nguyên không âm N được biểu diễn như một xâu ký tự. Hãy sử dụng nhiều nhất một phép đổi chỗ các chữ số trong N sao cho ta nhận được số lớn nhất nhỏ hơn N. Phép biến đổi có số 0 cho số đầu tiên sẽ không được chấp nhận. Ví dụ số N=354 thì số lớn nhất nhỏ hơn N được tạo ra là 345. Số 100 sẽ không có phép biến đổi vì số 010 có số 0 đứng đầu.
+Input:
+Dòng đầu tiên đưa vào số lượng test T (T≤100).
+Những dòng kế tiếp đưa vào các test. Mỗi bộ test là một xâu ký tự bao gồm các ký tự số. Độ dài tối đa là 1000.
+Output:
+Với mỗi test in ra số nguyên lớn nhất tìm được trên một dòng. Nếu không tồn tại đáp án, in ra -1.
+  Ví dụ:
+Input:
+Output:
+4
+354
+999
+100
+11101
+  345
+-1
+-1
+11011
+ 
