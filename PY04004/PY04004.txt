@@ -1,0 +1,13 @@
+LỚP PHÂN SỐ - 2
+Bài làm tốt nhất
+Khai báo lớp Phân số gồm hai thuộc tính tử số và mẫu số. Các giá trị đều nguyên dương và không quá 18 chữ số.
+nhập vào hai phân số p và q. Tính tổng p + q, rút gọn và in ra kết quả.
+Input
+Có bốn số nguyên dương lần lượt là tử số và mẫu số của p rồi đến q.
+Output
+Ghi ra phân số tổng p + q ở dạng tối giản như trong ví dụ
+Ví dụ
+Input
+Output
+123 456 12 34
+1609/2584

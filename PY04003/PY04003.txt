@@ -1,0 +1,13 @@
+LỚP PHÂN SỐ - 1
+Bài làm tốt nhất
+Khai báo lớp Phân số gồm hai thuộc tính tử số và mẫu số. Các giá trị đều nguyên dương và không quá 18 chữ số.
+Nhập vào một phân số và in ra phân số đó ở dạng tối giản.
+Input
+Có hai số nguyên dương lần lượt là tử số và mẫu số.
+Output
+Ghi ra phân số tối giản như trong ví dụ
+Ví dụ
+Input
+Output
+123 456
+41/152

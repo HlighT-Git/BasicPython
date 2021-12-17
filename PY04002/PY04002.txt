@@ -1,0 +1,17 @@
+LỚP RECTANGLE
+Bài làm tốt nhất
+Khai báo lớp Rectangle với 3 thuộc tính:
+Chiều dài: số nguyên
+Chiều rộng: số nguyên
+Màu sắc: xâu ký tự
+Nhập vào giá trị độ dài hai cạnh của hình chữ nhật và màu sắc. In ra thông tin về chu vi, diện tích và màu sắc (đã đưa về dạng chuẩn trong đó ký tự đầu viết hoa, các ký tự sau viết thường) của hình chữ nhật đó.
+Input
+Gồm 2 số nguyên là độ dài 2 cạnh hình chữ nhật và một xâu ký tự (không có khoảng trống) mô tả màu sắc.
+Output
+Nếu hình chữ nhật là hợp lệ (các cạnh đều nguyên dương) thì in ra 3 thông tin: chu vi, diện tích, màu sắc, mỗi thông tin cách nhau một khoảng trống.
+Nếu dữ liệu không hợp lệ in ra INVALID
+Ví dụ
+Input
+Output
+10 2 RED
+24 20 Red

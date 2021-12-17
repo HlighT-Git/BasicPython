@@ -11,10 +11,10 @@ def isPrime(n):
 pair = input().split()
 n = int(pair[0])
 m = int(pair[1])
-arr = []
+matrix = []
 for i in range(n):
-    arr.append(list(map(int, input().split())))
-for row in arr:
+    matrix.append(list(map(int, input().split())))
+for row in matrix:
     for element in row:
         if isPrime(element):
             print(1, end=' ')
