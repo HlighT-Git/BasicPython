@@ -1,0 +1,26 @@
+ID: PY01037
+Problem's name: SỐ PHẢN NGUYÊN TỐ NHỎ NHẤT
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Số nguyên dương N được gọi là phản nguyên tố nếu như số lượng ước số của N lớn hơn số lượng ước số của tất cả các số nguyên dương nhỏ hơn N.
+Ví dụ các số phản nguyên tố đầu tiên: 1, 2, 4, 6, 12, 24, …
+Cho số nguyên dương X, hãy tìm số phản nguyên tố bé nhất không nhỏ hơn X.
+Input:
+Dòng đầu ghi số bộ test T (không quá 106)
+Mỗi test ghi số nguyên dương X (1 ≤ X ≤ 107)
+Output:
+Với mỗi test, ghi ra kết quả tính được trên một dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+1
+5
+-----------------OUTPUT 0-----------------
+6
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

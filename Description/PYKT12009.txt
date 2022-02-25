@@ -1,0 +1,58 @@
+ID: PYKT12009
+Problem's name: DÃY SỐ YẾU NHẤT
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho dãy số A[] gồm có N phần tử. Tổng tuyệt đối của một dãy số là giá trị tuyệt đối của tổng tất cả các phần tử (tính tổng xong mới lấy giá trị tuyệt đối).
+Độ yếu của dãy số A[] được tính bằng giá trị lớn nhất trong số các tổng tuyệt đối của tất cả các dãy con liên tiếp của A.
+Bạn hãy xác định số thực X sao cho dãy số A[1]-X, A[2]-X, …, A[N]-X có độ yếu là nhỏ nhất.
+Input:
+Dòng đầu tiên gồm số nguyên N (1 ≤ N ≤ 100 000).
+Dòng tiếp theo gồm N số nguyên A[i] (-10 000 ≤ A[i] ≤ 10 000).
+Output: 
+In ra số độ yếu của dãy A[1]-X, A[2]-X, …, A[N] - X.
+Kết quả ghi ra với 6 chữ số phần thập phân. 
+ 
+Ví dụ:
+Test 1
+Test 2
+Test 3
+Input:
+3
+1 2 3
+  Output:
+1.000000
+  Input:
+4
+1 2 3 4
+  Output:
+2.000000
+  Input:
+10
+1 10 2 9 3 8 4 7 5 6
+  Output:
+4.500000
+ 
+Giải thích test 1:
+Với X = 1, dãy số mới thu được là -1, 0, 1. Dãy số này có độ yếu bằng 1.
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+3
+1 2 3
+  Output:
+1.000000
+ 
+-----------------OUTPUT 0-----------------
+Input:
+4
+1 2 3 4
+  Output:
+2.000000
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,43 @@
+ID: PYKT2079
+Problem's name: SỐ LỘC PHÁT (bản khó)
+Type: BÀI TẬP NÂNG CAO
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Theo quan niệm Á Đông, số 6 và 8 đọc là lục, bát, do vậy người ta hay liên tưởng tới lộc phát, là phát tài phát lộc.
+Nhiệm vụ của bạn là hãy xác định xem trong các số từ 1 à N và chia hết cho 8, tức dãy số 8, 16, 24, 32, … , tổng số lần xuất hiện chữ số 6 và 8 là bao nhiêu?
+Input:
+Dòng đầu tiên là số lượng bộ test T (T <= 100 000).
+Mỗi test gồm một số nguyên dương N (1 <= N <= 10^18)
+Output: 
+Với mỗi test, in ra đáp án tìm được trên một dòng.
+Test ví dụ:
+Input:
+Output
+4
+10
+18
+33
+56
+  1
+2
+2
+4
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+10
+18
+33
+56
+ 
+-----------------OUTPUT 0-----------------
+1
+2
+2
+4
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,38 @@
+ID: PYKT060
+Problem's name: ĐỒ THỊ ĐẦY ĐỦ
+Type: BÀI TẬP TRUNG BÌNH
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Một đồ thị được coi là đầy đủ nếu tất cả các cặp đỉnh đều có cạnh nối trực tiếp đến nhau.
+Cho đồ thị vô hướng G với N đỉnh và M cạnh.
+Giả sử mỗi bước người ta lấy một đỉnh rồi xóa tất cả các cạnh nối với đỉnh đó, sau đó thiết lập cạnh tới tất cả các đỉnh mà trước đó chưa kết nối với nó.
+Hãy kiểm tra xem bằng cách này thì có thể đến một bước nào đó đồ thị trở thành đầy đủ hay không?
+Input
+Dòng đầu ghi số đỉnh N (không quá 1000)
+Dòng thứ 2 ghi số M là số cạnh (M < N*(N-1)/2)
+Tiếp theo là M dòng, mỗi dòng ghi một cạnh của đồ thị.
+Output
+Ghi ra YES hoặc NO tùy thuộc kết quả kiểm tra
+Ví dụ
+   
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+2
+1 2
+2 3
+|||||||||||||||||INPUT 1||||||||||||||||||
+4
+2
+1 3
+2 4
+-----------------OUTPUT 0-----------------
+NO
+-----------------OUTPUT 1-----------------
+YES
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

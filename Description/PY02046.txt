@@ -1,0 +1,42 @@
+ID: PY02046
+Problem's name: PHÂN CHIA NGUYÊN TỐ
+Type: BÀI TẬP TRUNG BÌNH
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho dãy số A[] có N phần tử là các số nguyên dương không quá 1000. Sau khi loại bỏ tất cả các giá trị bị lặp lại ở trong A[] ta tạo được dãy B[] có m phần tử là các giá trị khác nhau theo đúng thứ tự xuất hiện trong dãy A[].
+Hãy tìm vị trí i nhỏ nhất (tính từ 0) trong dãy B[] thỏa mãn:
+Tổng các phần tử từ B[0] đến B[i] là một số nguyên tố
+Tổng các phần tử từ B[i+1] đến B[m-1] cũng là một số nguyên tố.
+Input
+Dòng đầu ghi số N (1 < N < 500).
+Dòng tiếp theo ghi N số của dãy A[]
+Output
+Ghi ra vị trí i đầu tiên tìm được.
+Nếu không có vị trí thỏa mãn thì ghi ra dòng chữ NOT FOUND
+Ví dụ
+Input
+Output
+10
+3 6 7 3 4 7 3 6 4 4
+0
+10
+3 6 7 3 5 7 3 6 6 7
+NOT FOUND
+Giải thích test 1:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+10
+3 6 7 3 4 7 3 6 4 4
+|||||||||||||||||INPUT 1||||||||||||||||||
+10
+3 6 7 3 5 7 3 6 6 7
+-----------------OUTPUT 0-----------------
+0
+-----------------OUTPUT 1-----------------
+NOT FOUND
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

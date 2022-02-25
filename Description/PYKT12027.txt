@@ -1,0 +1,29 @@
+ID: PYKT12027
+Problem's name: ĐẾM CẶP NGHỊCH THẾ
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho một dãy số a1 ... an. Một nghịch thế là một cặp số u, v sao cho u < v và au > av. Nhiệm vụ của bạn là đếm số nghịch thế.
+Input:
+Dòng đầu tiên chứa 2 số nguyên n (2 ≤ n ≤ 105)
+Dòng tiếp theo chứa n số nguyên của mảng a (-109 ≤ ai ≤ 109)
+Output:
+In ra một số nguyên duy nhất là số cặp nghịch thế tìm được.
+Ví dụ:
+Input
+Output
+3
+3 1 2
+2
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+3 1 2
+-----------------OUTPUT 0-----------------
+2
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

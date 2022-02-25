@@ -1,0 +1,50 @@
+ID: PYKT12010
+Problem's name: MÁI NHÀ
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho dãy số A[] gồm có N phần tử. Bạn được phép tăng, giảm một phần tử mỗi lần 1 đơn vị. Nhiệm vụ của bạn là hãy sử dụng ít bước nhất có thể để chuyển dãy số đã cho về dạng dãy số ‘mái nhà’, với các tính chất sau :
+Một phần tử lớn nhất là đỉnh (giả sử là phần tử thứ i)
+Các phần tử bên trái và bên phải giảm dần đi 1 đơn vị, tức là với mọi j, A[j] = A[i] - |i-j|
+Tất cả các phần tử A[j] đều phải lớn hơn 0.
+Input:
+Dòng đầu tiên là số nguyên N (N ≤ 5000).
+Dòng tiếp theo gồm N phần tử của dãy số (1 ≤ A[i] ≤ 5000).
+Output: 
+In ra số bước ít nhất để có thể hoàn thành bài toán trên.
+ 
+Ví dụ:
+Test 1
+Test 2
+Input:
+5
+4 5 6 2 2
+  Output:
+3
+  Input:
+6
+4 5 6 5 4 3
+  Output:
+0
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+5
+4 5 6 2 2
+  Output:
+3
+ 
+-----------------OUTPUT 0-----------------
+Input:
+6
+4 5 6 5 4 3
+  Output:
+0
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 3s
+Giới hạn bộ nhớ: 65536 Kb

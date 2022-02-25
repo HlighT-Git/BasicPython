@@ -1,0 +1,30 @@
+ID: PYKT13006
+Problem's name: TÌM CHỮ SỐ
+Type: BÀI TẬP NÂNG CAO
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Hãy tìm 3 chữ số đầu tiên trước dấu phẩy của số (3+sqrt(5))^n.
+Ví dụ:
+Với n = 5, (3+sqrt(5))^5 = 3935.73982… Đáp số là 935.
+Với n = 2, (3+sqrt(5))^2 = 27.4164079… Đáp số là 027.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 100).
+Mỗi test gồm một số nguyên n (n ≤ 2 000 000 000).
+Output: 
+Với mỗi test in ra STT và đáp án tìm được. In ra đủ 3 chữ số như test ví dụ (n = 2, in ra 027).
+ 
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+5
+2
+-----------------OUTPUT 0-----------------
+Case #1: 935
+Case #2: 027
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

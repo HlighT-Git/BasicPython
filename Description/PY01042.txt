@@ -1,0 +1,28 @@
+ID: PY01042
+Problem's name: KIỂM TRA HỆ CƠ SỐ 3
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Hệ cơ số 3 chỉ biểu diễn các số sử dụng ba chữ số là 0, 1, 2.
+Nhập vào dãy biểu diễn không quá 18 ký tự, hãy kiểm tra xem dãy biểu diễn nào là đúng với hệ cơ số 3.
+Input
+Dòng đầu là số bộ test, mỗi dòng tiếp theo ghi một dãy biểu diễn cần kiểm tra.
+Output
+Nếu đúng in ra YES, nếu sai in ra NO.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+1214AB
+10210221
+22222222
+-----------------OUTPUT 0-----------------
+NO
+YES
+YES
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,27 @@
+ID: PYKT041
+Problem's name: ĐẾM CẶP ĐỒNG XU
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho một lưới hình vuông kích thước N*N. Trên một số ô của lưới người ta đặt các đồng xu (ký hiệu bằng chữ cái C (coin)). Hãy đếm xem có thể lấy ra bao nhiêu cặp đồng xu ở cùng một hàng hoặc cùng một cột.
+Input
+Dòng đầu tiên ghi số N (1 ≤ N ≤ 100)
+N dòng tiếp theo mô tả trạng thái của lưới, chữ cái C ứng với vị trí có đồng x, dấu chấm tương ứng với ô trống)
+Output
+Ghi ra số cặp đồng xu đếm được.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+CC..
+C..C
+.CC.
+.CC.
+-----------------OUTPUT 0-----------------
+9
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

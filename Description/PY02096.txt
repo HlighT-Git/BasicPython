@@ -1,0 +1,32 @@
+ID: PY02096
+Problem's name: VỊ TRÍ CHẴN
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho trước 1 chữ số d (0 ≤ d ≤ 9) , ta gọi họ số đặc biệt của d là tập các số tự nhiên mà chữ số d chỉ xuất hiện tại vị trí chẵn (không xuất hiện trong vị trí lẻ).
+Ví dụ: Số 1717171 là 1 số trong họ số đặc biệt của chữ số 7
+Số 20 là 1 số trong họ số đặc biệt của chữ số 2.
+Bây giờ, việc của bạn là: Cho trước 1 chữ số d, hãy đếm số lượng các số thuộc họ số đặc biệt của d nằm trong đoạn từ [a,b] mà là bội số của 1 số m cho trước.
+Input:
+Dòng đầu tiên gồm 2 số m và d (1 ≤ m ≤ 2000, 0 ≤ d ≤ 9)
+Dòng thứ 2 gồm 2 số a và b ( a ≤ b, số chữ số của cả a và b bằng nhau, không vượt quá 2000 và không có chữ số 0 ở đầu).
+Output:
+In ra kết quả bài toán. Vì kết quả bài toán có thể rất lớn nên kết quả in ra phải được lấy dư theo 109 + 7
+Ví dụ:
+Input
+Output
+43 3
+587 850
+1
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+43 3
+587 850
+-----------------OUTPUT 0-----------------
+1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

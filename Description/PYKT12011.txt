@@ -1,0 +1,32 @@
+ID: PYKT12011
+Problem's name: XÁC SUẤT CHỌN BIT
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho chuỗi nhị phân S có chiều dài bằng N và số nguyên K. Chọn ngẫu nhiên 2 số nguyên i, j trong khoảng từ 1 tới N.
+Xác suất để S[i], S[j] đều là bit 1 và |i-j| ≤ K là bao nhiêu?
+Input
+Dòng đầu tiên là số lượng bộ test T (T ≤ 100 000).
+Mỗi test bắt đầu bởi 2 số nguyên N và K.
+Dòng tiếp theo gồm xâu S chứa các kí tự 0 và 1.
+Chú ý: Tổng giá trị của N trong tất cả các test ≤ 100 000.
+Output
+In ra xác suất tìm được dưới dạng phân số tối giản dạng X/Y. Nếu xác suất bằng 0, in ra 0/1.
+ 
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+4 3
+1011
+4 1
+1000
+-----------------OUTPUT 0-----------------
+9/16
+1/16
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

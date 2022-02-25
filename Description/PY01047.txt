@@ -1,0 +1,30 @@
+ID: PY01047
+Problem's name: KIỂM TRA NGUYÊN TỐ
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Cho số nguyên dương N có không quá 500 chữ số.
+Hãy kiểm tra xem 4 chữ số cuối cùng ghép lại có tạo thành một số nguyên tố hay không.
+Chú ý: các chữ số 0 ở đầu trong 4 chữ số cuối vẫn được chấp nhận
+Input
+Dòng đầu ghi số bộ test (không quá 20).
+Mỗi test viết trên một dòng số nguyên dương N, không quá 500 chữ số.
+Output
+Với mỗi bộ test ghi ra YES hoặc NO tùy thuộc kết quả kiểm tra.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+12234323130097
+3443354654654654461123
+43543543434554659999
+-----------------OUTPUT 0-----------------
+YES
+YES
+NO
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

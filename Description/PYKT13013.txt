@@ -1,0 +1,60 @@
+ID: PYKT13013
+Problem's name: TÍNH TỔNG TRÊN MA TRẬN
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho một ma trận N x M (N hàng, M cột). Ban đầu, các phần tử của ma trận được gán giá trị như sau:
+1           2     … M
+M+1        M+2    … M+N
+………………………………………………………….
+(N-1)M+1 (N-1)M+2 … NM
+Có K loại truy vấn, mỗi truy vấn có dạng:
+“R X Y”: Nhân hàng X của ma trận với Y
+“S X Y”: Nhân cột X của ma trận với Y
+Nhiệm vụ của bạn là hãy tính tổng các phần tử của ma trận sau K truy vấn trên.
+Input:
+Dòng đầu tiên chứa 3 số nguyên N, M, K (1 ≤ N, M ≤ 106, K ≤ 1000).
+K dòng tiếp theo, mỗi dòng chứa một truy vấn (0 ≤ Y ≤ 109).
+Output: 
+In ra đáp án của bài toán theo modulo 109 + 7.
+Ví dụ:
+Test 1
+Test 2
+Input:
+3 1 1
+S 1 4
+      Output:
+24
+Input:
+3 4 4
+R 2 4
+S 4 2
+R 3 3
+R 2 0
+Output:
+176
+ 
+Giải thích test 2: 1+2+3+8+27+30+33+72 = 176
+1   2   3   8
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+3 1 1
+S 1 4
+      Output:
+24
+-----------------OUTPUT 0-----------------
+Input:
+3 4 4
+R 2 4
+S 4 2
+R 3 3
+R 2 0
+Output:
+176
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

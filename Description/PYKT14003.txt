@@ -1,0 +1,30 @@
+ID: PYKT14003
+Problem's name: HEXAGRAM
+Type: BÀI TẬP NÂNG CAO
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Hexagram được định nghĩa là một ngôi sao 6 cánh đặc biệt. Mỗi giao điểm trong ngôi sao ghi một số nguyên dương sao cho tổng các số trong mỗi cạnh đều bằng nhau.
+Ví dụ với dãy số: 3 17 15 18 11 22 12 23 21 7 9 13
+Thì ta sẽ có 4 cách sắp xếp các số trên vào ngôi sao là:
+
+Bài toán đặt ra là cho trước dãy 12 số nguyên. Hãy đếm số cách xếp các số đó vào ngôi sao sáu cạnh để được dạng Hexagram như mô tả trên.
+Chú ý: Không xét các trường hợp là xoay của nhau hoặc lấy đối xứng.
+Input
+Dòng đầu ghi số bộ test.
+Mỗi bộ test ghi trên một dòng 12 số nguyên dương, mỗi số cách nhau một khoảng trống. Các số đều được đảm bảo nhỏ hơn 1000000.
+Output
+Với mỗi bộ test, in ra màn hình số cách xếp các số trên để tạo thành HEXAGRAM như mô tả trên. 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+3 17 15 18 11 22 12 23 21 7 9 13
+1 2 3 4 5 6 7 8 9 10 11 13
+-----------------OUTPUT 0-----------------
+4
+0
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

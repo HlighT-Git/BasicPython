@@ -1,0 +1,41 @@
+ID: PY01075
+Problem's name: TRÒ CHƠI TRÊN ĐƯỜNG THẲNG
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Nam đang chơi một trò chơi. Trong trò này có một đường thẳng dài vô hạn với các điểm có tọa độ nguyên (âm, dương, 0). Lúc đầu Nam đang ở điểm có tọa độ 0.
+Ngoài ra, trong trò chơi còn có n thẻ, thẻ thứ i có hai thuộc tính là ai và ci. Nếu muốn sử dụng thẻ thứ i thì Nam phải trả ci VNĐ. Khi đó Nam sẽ có các bước nhảy độ dài ai. Tức là từ điểm x, anh ấy có thể nhảy đến điểm (x – ai) hoặc (x + ai).
+Nam muốn nhảy đến bất kì điểm nào trên đường thẳng (có thể qua một số điểm trung gian) và cô ấy muốn trả một số tiền ít nhất để mua các thẻ.
+Hãy tính toán số  tiền tối thiểu mà Nam phải bỏ ra.
+Input
+Dòng đầu chứa một số nguyên T - số trò chơi mà Nam chơi.
+Mỗi trò chơi được mô tả trên 3 dòng:
+Dòng đầu tiên chứa một số nguyên n – số lượng thẻ trong trò chơi (không quá 200).
+Dòng thứ hai gồm n số nguyên ai (1 ≤ ai ≤ 109) - độ dài bước nhảy của thẻ.
+Dòng thứ ba gồm n số nguyên ci (1 ≤ ci ≤ 105) – chi phí của thẻ.
+Output
+Với mỗi trò chơi in kết quả trên một dòng. Nếu Nam không thể mua một số thẻ để đi đến bất kì ô nào in ra -1. Nếu không, in ra chi phí tối thiểu Nam phải bỏ ra để mua thẻ.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+1
+3
+2 6 4
+1 1 1
+    Output:
+-1
+-----------------OUTPUT 0-----------------
+Input:
+1
+3
+3 4 5
+1 2 3
+    Output:
+3
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

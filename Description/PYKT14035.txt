@@ -1,0 +1,59 @@
+ID: PYKT14035
+Problem's name: TÔ MÀU ĐỒ THỊ
+Type: BÀI TẬP NÂNG CAO
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Cho một cây gồm N nút. Hãy tô màu mỗi đỉnh bằng một số nguyên dương trong phạm vi [1, N] sao cho:
+2 nút có chung cạnh phải khác màu.
+Tổng chi phí tô màu là nhỏ nhất. Tô màu 1 đỉnh bằng màu C tốn chi phí bằng C.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+Mỗi test gồm 1 số nguyên dương N (N ≤ 200 000).
+Dòng tiếp theo, gồm N số nguyên, số thứ i là p[i] cho biết nút cha của i là p[i]. Các nút được đánh số từ 0 tới N-1.
+Output: 
+Với mỗi test in ra STT và đáp án tìm được.
+ 
+Ví dụ:
+Input
+Output
+5
+3
+0 1 1
+8
+0 1 1 2 2 3 3 3
+5
+0 1 2 3 4
+9
+0 1 2 3 4 5 5 5 5
+8
+0 1 1 1 1 2 2 2
+Case #1: 4
+Case #2: 10
+Case #3: 7
+Case #4: 12
+Case #5: 11
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+5
+3
+0 1 1
+8
+0 1 1 2 2 3 3 3
+5
+0 1 2 3 4
+9
+0 1 2 3 4 5 5 5 5
+8
+0 1 1 1 1 2 2 2
+-----------------OUTPUT 0-----------------
+Case #1: 4
+Case #2: 10
+Case #3: 7
+Case #4: 12
+Case #5: 11
+_______________________________________________________________________________
+
+Giới hạn thời gian: 6s
+Giới hạn bộ nhớ: 65536 Kb

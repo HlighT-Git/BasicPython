@@ -1,0 +1,31 @@
+ID: PYKT091
+Problem's name: TÌM TỪ THUẬN NGHỊCH DÀI NHẤT
+Type: BÀI TẬP TRUNG BÌNH
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho dữ liệu vào dạng file văn bản.
+Hãy tìm ra từ thỏa mãn tính chất thuận nghịch và có độ dài lớn nhất trong file đó. Đếm xem từ đó xuất hiện bao nhiêu lần.
+Nếu có nhiều từ cùng có độ dài lớn nhất thì in ra tất cả các từ đó theo thứ tự xuất hiện trong file ban đầu.
+ 
+Input: File văn bản VANBAN.in Không quá 1000 từ.
+ 
+Output:
+Ghi ra trên màn hình một dòng từ thuận nghịch có độ dài lớn nhất và số lần xuất hiện của nó. Nếu có nhiều từ cùng có độ dài lớn nhất thì các từ được liệt kê theo thứ tự xuất hiện ban đầu.
+ 
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+AAA BAABA HDHDH ACBSD SRGTDH DDDDS
+DUAHD AAA AD DA HDHDH AAA AAA AAA AAA
+DDDAS HDHDH HDH AAA AAA AAA AAA AAA
+AAA AAA AAA
+DHKFKH DHDHDD HDHDHD DDDHHH HHHDDD
+TDTD
+-----------------OUTPUT 0-----------------
+HDHDH 3
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

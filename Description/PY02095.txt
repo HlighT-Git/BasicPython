@@ -1,0 +1,48 @@
+ID: PY02095
+Problem's name: BÀN CỜ
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Một bàn cờ có dạng bảng vuông kích thước 4 * 4, trên đó có một số quân cờ. Một quân cờ chỉ có thể di chuyển sang 1 ô kề cạnh còn trống, mỗi di chuyển như vậy được gọi là 1 bước di chuyển.
+Cho hai trạng thái của bàn cờ, hãy chỉ ra một dãy các bước di chuyển để đưa bảng từ trạng thái xuất phát đến trạng thái đích với số phép di chuyển là ít nhất. Mỗi trạng thái được mô tả là một ma trận 4 * 4 trong đó số ô ở hàng i, cột j là 1 nếu tại vị trí (i,j) tương ứng có quân cờ đang đứng hoặc bằng 0 nếu không có.
+Input
+Gồm 2 * 4 dòng thể hiện ma trận mô tả trạng thái xuất phát và trạng thái đích. 4 dòng đầu tiên thể hiện ma trận xuất phát, 4 dòng tiếp theo là ma trận đích.
+Input luôn đảm bảo là có nghiệm.
+Output
+Dòng đầu tiên ghi k là số ít nhất các phép biến đổi tìm được.
+K dòng tiếp, mỗi dòng mô tả 1 phép biến đổi, theo đúng trình tự biến đổi, gồm 4 số nguyên dương u, v, x, y thể hiện di chuyển quân cờ ở vị trí (u, v) sang vị trí (x, y).
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+1111
+1111
+0000
+0000
+0000
+0000
+1111
+1111
+-----------------OUTPUT 0-----------------
+16
+2 1 3 1
+1 1 2 1
+2 2 3 2
+1 2 2 2
+2 3 3 3
+1 3 2 3
+2 4 3 4
+1 4 2 4
+3 1 4 1
+2 1 3 1
+3 2 4 2
+2 2 3 2
+3 3 4 3
+2 3 3 3
+3 4 4 4
+2 4 3 4
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,27 @@
+ID: PY01076
+Problem's name: SỐ NGUYÊN LỚN
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Cho hai số a và b trong đó a≤1012, b≤10250. Nhiệm vụ của bạn là tìm ước số chung lớn nhất của hai số a, b.
+Input:
+Dòng đầu tiên đưa vào T là số lượng bộ test.
+T dòng tiếp đưa các bộ test. Mỗi bộ test gồm hai dòng: dòng đầu tiên đưa vào số a; dòng tiếp theo đưa vào số b.
+Các số T, a, b thỏa mãn ràng buộc: 1≤T≤100; 1≤a≤1012; 1≤b≤10250;
+Output:
+Đưa ra kết quả mỗi test theo từng dòng.
+     Ví dụ:
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+1
+1221
+1234567891011121314151617181920212223242526272829
+-----------------OUTPUT 0-----------------
+3
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

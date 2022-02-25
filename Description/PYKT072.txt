@@ -1,0 +1,73 @@
+ID: PYKT072
+Problem's name: XOAY VÒNG XÂU KÝ TỰ
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho N xâu S[1], S[2], …, S[N] có độ dài bằng nhau. Mỗi bước, với xâu T, bạn được phép xoay vòng 1 kí tự, tức lấy kí tự đầu tiên của T rồi chuyển xuống cuối. Ví dụ xâu “cool” sẽ chuyển thành “oolc”.
+Bạn cần phải xoay N xâu sao cho tất cả chúng đều giống nhau. Hãy xác định số bước ít nhất để hoàn thành được công việc này?
+Input:
+Mỗi test bắt đầu bởi số nguyên N (1 ≤ N ≤ 50).
+N dòng tiếp theo, mỗi dòng gồm xâu S[i] có độ dài không quá 50.
+Output: 
+Với mỗi test, in ra số bước ít nhất tìm được, nếu không thể biến đổi, hãy in ra “NO”.
+ 
+Test ví dụ:
+Test 1
+Test 2
+Test 3
+Test 4
+Input:
+4
+xzzwo
+zwoxz
+zzwox
+xzzwo
+  Output:
+5
+  Input:
+2
+molzv
+lzvmo
+      Output:
+2
+  Input:
+3
+kc
+kc
+kc
+    Output:
+0
+  Input:
+3
+aa
+aa
+ab
+    Output:
+-1
+ 
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+4
+xzzwo
+zwoxz
+zzwox
+xzzwo
+  Output:
+5
+ 
+-----------------OUTPUT 0-----------------
+Input:
+2
+molzv
+lzvmo
+      Output:
+2
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

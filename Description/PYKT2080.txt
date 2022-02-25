@@ -1,0 +1,45 @@
+ID: PYKT2080
+Problem's name: XÂU CON
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho 2 số nguyên dương N, M và xâu s. Hãy đếm số lượng các xâu t có độ dài bằng N và xâu s là xâu con của t.
+Input:
+Dòng đầu tiên là số lượng bộ test (T ≤ 20).
+Mỗi bộ test bắt đầu bởi 2 số N và M (N, M ≤ 10^12).
+Dòng tiếp theo là xâu s có độ dài không quá 50 kí tự, chỉ gồm các chữ cái thường.
+Output: 
+Với mỗi test, in ra đáp án tìm được theo modulo M.
+Ví dụ:
+Input:
+Output
+3
+2 1000
+ab
+3 1000
+ab
+3 1000
+aa
+1
+52
+51
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+2 1000
+ab
+3 1000
+ab
+3 1000
+aa
+-----------------OUTPUT 0-----------------
+1
+52
+51
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,35 @@
+ID: PYKT14006
+Problem's name: PHÉP TOÁN
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Có 2 nhà toán học đại tài là Greek và Macedonia họ hơn thua nhau từng li từng tí, một ngày Greek nghĩ ra bài toán khá là hay ho và này nọ đó là ông đưa ra 1 dãy số và chỉ từ phép cộng trừ để tạo ra 1 số M cho trước, ông yêu cầu Macedonia phải giải nhưng quá thông minh nên Macedonia đã giải rất nhanh và để làm khó Greek nên ông đã biến đổi bài toán của chính Greek ông cho 1 dãy n phần tử a1,a2,a3,…….an và 1 số M nhưng thay vì 2 phép toán +,- ông thêm 1 phép toán nữa thành +, -, * và bắt Greek phải tìm ra biểu thức phù hợp để tạo ra số M
+Do không kịp suy nghĩ nên nhà toán học đã kêu gọi sự trợ giúp từ các lập trình viên. Bạn hãy tìm cách giúp ông ấy nhé !
+Input
+Dòng đầu chứa số n (2 ≤ n ≤ 10) và số m( m ≤ 10^18)
+Dòng thứ 2 là dãy số a1,a2,a3,…..an ( |ai| ≤ 15000 )
+Output
+Nếu có thể tìm phép toán phù hợp hãy in ra tất cả các phép toán thỏa mãn. Nếu có số âm phải để trong dấu ngoặc ( )
+Nếu không tìm thấy in ra IMPOSSIBLE
+Ví dụ:
+Input
+Output
+5 20
+1 2 3 4 5
+1+2+3*4+5=20
+1+2-3+4*5=20
+1+2*3*4-5=20
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+5 20
+1 2 3 4 5
+-----------------OUTPUT 0-----------------
+1+2+3*4+5=20
+1+2-3+4*5=20
+1+2*3*4-5=20
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

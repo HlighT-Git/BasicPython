@@ -1,0 +1,94 @@
+ID: PYKT082
+Problem's name: TÍNH ĐIỂM THI IELTS
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Thang điểm IELTS được tính từ 1.0 – 9.0 IELTS (Overall điểm thi IELTS được tính trung bình cộng điểm 4 kỹ năng Reading, Listening, Speaking và Writing).
+4 kỹ năng của IELTS cũng tính từ 1.0-9.0 để sau đó tính điểm thi IELTS Overall.
+Cả 2 phần thi nghe (Listening) và đọc (Reading) đều có 40 câu hỏi thí sinh cần trả lời. Với một câu trả lời đúng sẽ được 1 điểm, tối đa là 40 điểm và quy đổi sang thang điểm 1.0 – 9.0 dựa trên tổng số câu trả lời đúng.
+Dưới đây là bảng điểm quy đổi sẽ giúp cho các bạn hiểu hơn về cách chuyển đổi điểm cho từng phần thi Reading và Listening.
+Listening/Reading
+Correct answers
+Band score
+ 39 - 40
+ 9.0
+ 37- 38
+ 8.5
+ 35 - 36
+ 8.0
+ 33 - 34
+ 7.5
+ 30 - 32
+ 7.0
+ 27 - 29
+ 6.5
+ 23 - 26
+ 6.0
+ 20 - 22
+ 5.5
+ 16 - 19
+ 5.0
+ 13 - 15
+ 4.5
+ 10 - 12
+ 4.0
+ 7- 9
+ 3.5
+ 5 - 6
+ 3.0
+ 3 - 4
+ 2.5
+ 
+Thang điểm IELTS trên bảng kết quả của thí sinh sẽ thể hiện điểm của từng kỹ năng thi cùng với điểm overall. Phần điểm tổng sẽ được tính dựa trên điểm trung bình cộng của 4 kỹ năng.
+ 
+Điểm tổng của 4 kỹ năng sẽ được làm tròn số theo quy ước chung như sau: Nếu điểm trung bình cộng của 4 kỹ năng có số lẻ là .25, thì sẽ được làm tròn lên thành .5, còn nếu là .75 sẽ được làm tròn thành 1.0.
+Một trung tâm tổ chức thi thử Tiếng Anh cho các học viên. Hãy giúp trung tâm tính điểm overall dựa trên kết quả bài làm của thí sinh nhé.
+Input:
+Dòng đầu cho số T là số lượng thí sinh
+T dòng tiếp theo mỗi dòng cho 4 số là số câu đúng lần lượt của kỹ năng Reading, Listening, điểm kỹ năng speaking, và điểm kỹ năng writing.
+Output:
+Listening/Reading
+Correct answers
+Band score
+ 39 - 40
+ 9.0
+ 37- 38
+ 8.5
+ 35 - 36
+ 8.0
+ 33 - 34
+ 7.5
+ 30 - 32
+ 7.0
+ 27 - 29
+ 6.5
+ 23 - 26
+ 6.0
+ 20 - 22
+ 5.5
+ 16 - 19
+ 5.0
+ 13 - 15
+ 4.5
+ 10 - 12
+ 4.0
+ 7- 9
+ 3.5
+ 5 - 6
+ 3.0
+ 3 - 4
+ 2.5
+Input:
+Output:
+2
+15 25 5.0 5.5
+22 32 6.0 6.0
+5.5
+6.0
+
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,30 @@
+ID: PYKT13009
+Problem's name: TÍNH TỔNG 1
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho 2 số nguyên n và K. Hãy tính giá trị biểu thức
+
+  theo modulo 109+7.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+Mỗi test gồm 2 số nguyên dương n và K (n ≤ 109, K ≤ 50).
+Output: 
+Với mỗi test, in ra đáp án tìm được theo modulo 109 + 7.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+1 1
+4 2
+10 3
+-----------------OUTPUT 0-----------------
+1
+30
+3025
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

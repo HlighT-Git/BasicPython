@@ -1,0 +1,37 @@
+ID: PYKT069
+Problem's name: DANH SÁCH CA THI
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Học viện Hoàng gia tổ chức thi thời kỳ giãn cách theo các hình thức thi linh hoạt, phù hợp với từng môn học.
+Mỗi ca thi gồm các thông tin:
+Mã ca thi: tự động tăng, tính từ C001
+Ngày thi: đúng định dạng dd/mm/yyyy
+Giờ thi: theo đúng định dạng hh:mm
+Phòng thi: một dãy chữ số đại diện cho ID phòng online, không quá 12 chữ số
+Hãy nhập danh sách các ca thi và sắp xếp theo thời gian thi (từ sớm nhất đến muộn nhất). Nếu hai ca thi cùng giờ thì sắp xếp theo mã ca thi tăng dần.
+Input – file văn bản CATHI.in
+Dòng đầu ghi số ca thi. Mỗi ca thi ghi trên 3 dòng gồm Ngày, Giờ và ID phòng thi.
+Output
+Ghi ra danh sách các ca thi theo thứ tự thời gian, nếu cùng giờ thì sắp xếp theo mã ca thi.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+09/01/2022
+15:30
+70172
+09/01/2022
+10:00
+70279
+ 
+-----------------OUTPUT 0-----------------
+C002 09/01/2022 10:00 70279
+C001 09/01/2022 15:30 70172
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 200000 Kb

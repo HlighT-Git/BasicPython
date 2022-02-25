@@ -1,0 +1,15 @@
+TÍCH LỚN NHẤT
+Bài làm tốt nhất
+Cho dãy số A gồm N phần tử là các số nguyên. Hãy tính tích lớn nhất của 2 hoặc 3 phần tử trong dãy.
+Input
+Dòng đầu tiên ghi số N (3 ≤ N ≤ 10000)
+Dòng thứ 2 ghi N số của dãy A (|Ai| ≤ 1000)
+Outpput
+Ghi ra kết quả trên một dòng
+Ví dụ
+Input
+Output
+6
+5 10 -2 3 5 2
+250
+ 

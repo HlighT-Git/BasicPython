@@ -1,0 +1,51 @@
+ID: PYKT13012
+Problem's name: TỔNG FIBONACCI
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho một dãy số a[] có n phần tử, và m truy vấn.
+Có 2 loại try vấn.
+Truy vấn loại 1: 1 L R X
+tăng tất cả các số trong khoảng L...R thêm X đơn vị.
+Truy vấn loại 2: 2 L R .
+Giả sử f(x) là giá trị của số fibonaci thứ x, tính tổng
+f[a[L]] + f[a[L+1] + ... + f[a[R]]
+( vì giá trị rất lớn nên phải chia dữ cho 109 + 7 )
+ 
+Input:
+Dòng đầu 2 số n và m. (1 <= n, m <= 100000)
+Dòng 2 chứa n số của dãy a[].
+m dòng sau mỗi dòng chứa một truy vấn của loại 1 hoặc loại 2.
+Thời gian  cho mỗi test là 1.5s     
+ 
+Output:
+Mỗi truy vấn của loại 2 in 1 dòng chứa kết quả đã  được mod cho 1e9+7.
+ 
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3 3
+4 3 4
+1 2 2 1
+2 3 3
+2 1 3
+|||||||||||||||||INPUT 1||||||||||||||||||
+4 3
+2 4 1 4
+2 2 3
+1 3 3 5
+2 1 3
+-----------------OUTPUT 0-----------------
+3
+9
+   
+-----------------OUTPUT 1-----------------
+4
+12
+   
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

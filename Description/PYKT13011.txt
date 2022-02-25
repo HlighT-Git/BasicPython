@@ -1,0 +1,49 @@
+ID: PYKT13011
+Problem's name: QUÂN MÃ
+Type: BÀI TẬP NÂNG CAO
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Cho bàn cờ có kích thước M x N. Hãy đếm xem có bao nhiêu cách đặt các con mã lên bàn cờ mà không có xung đột nào xảy ra (tính cả trường hợp không đặt quân nào lên bàn cờ).
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+Mỗi test gồm 2 số nguyên M và N (1 ≤ M ≤ 4, 1 ≤ N ≤ 109).
+Output: 
+Với mỗi test, in ra đáp án tìm được theo modulo 109+7.
+Ví dụ :
+Input
+Output
+4
+1 2
+2 2
+2 3
+4 10
+  4
+16
+36
+18702843
+ 
+Giải thích test 1: Với x là vị trí quân mã, ta có:
+oo, ox, xo, xx
+Giải thích test 2:
+Đặt K = 0 quân mã à 1 cách
+Đăt K = 1 quân mã à 4 cách
+Đăt K = 2 quân mã à 6 cách
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+1 2
+2 2
+2 3
+4 10
+ 
+-----------------OUTPUT 0-----------------
+4
+16
+36
+18702843
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

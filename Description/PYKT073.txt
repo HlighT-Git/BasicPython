@@ -1,0 +1,40 @@
+ID: PYKT073
+Problem's name: XÁC ĐỊNH THỂ LOẠI THƠ
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Trong thơ ca có rất nhiều các thể thơ và những cách gieo vần khác nhau cho các bài thơ. Trong số những thể thơ đó, bạn có thể lựa chọn cho mình một loại thể thơ riêng để đem lại nhiều hiệu quả cho bài thơ và giúp cho bạn có thể thấy được sự hiệu quả trong cách truyền đạt những cung bậc cảm xúc vào trong bài thơ.
+Cho danh sách các bài thơ gồm hai thể loại thơ lục bát và thơ thất ngôn tứ tuyệt.
+1. Thơ lục bát
+- Là thể thơ dân tộc.
+- Số chữ và số câu: Một cặp hai câu thơ, câu trên sáu chữ (lục), câu dưới tám chữ (bát). Một bài thơ có thể có nhiều cặp lục bát, số lượng cặp câu không hạn định.
+2. Thơ thất ngôn tứ tuyệt
+- Xuất xứ: Trung Quốc
+- Thơ trung đại, thơ cận đại
+- Là bài thơ mà mỗi dòng 7 tiếng, bài có 4 câu (Khai - Thừa - Chuyển - Hợp)
+Nhiệm vụ của bạn là hãy viết chương trình xác định số lượng bài thơ và thể thơ (ghi bằng số) của từng bài từ danh sách các bài thơ có sẵn.
+Input:
+Dòng đầu tiên cho số N là tổng số dòng của tất cả các bài thơ.
+N dòng tiếp theo ghi lại các câu thơ của từng bài. Các bài thơ lục bát sẽ đảm bảo không đặt liên tiếp nhau.
+Output:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+8
+Minh ve minh co nho ta
+Muoi lam nam ay thiet tha man nong
+Minh ve minh co nho khong
+Nhin cay nho nui nhin song nho nguon
+Mot canh hai canh lai ba canh
+Tran troc ban khoan giac chang lanh
+Canh bon canh nam vua chop mat
+Sao vang nam canh mong hon bay
+-----------------OUTPUT 0-----------------
+2
+1
+2
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

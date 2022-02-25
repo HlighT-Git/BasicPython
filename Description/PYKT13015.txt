@@ -1,0 +1,39 @@
+ID: PYKT13015
+Problem's name: TÍNH LŨY THỪA
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho các số nguyên a, b, c, d và M.
+Hãy tính giá trị biểu thức
+
+ theo modulo M.
+ 
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10000).
+Mỗi test gồm 5 số nguyên a, b, c, d, M (0 ≤ a, b, c, d ≤ 109, 1 ≤ M ≤ 107).
+Output: 
+Với mỗi test in ra đáp án tìm được trên 1 dòng.
+Ví dụ:
+Input:
+Output:
+2
+3 1 2 2 1000
+2 1 2 2 14
+81
+2
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+3 1 2 2 1000
+2 1 2 2 14
+-----------------OUTPUT 0-----------------
+81
+2
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

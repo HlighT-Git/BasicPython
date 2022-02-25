@@ -1,0 +1,49 @@
+ID: PYKT14031
+Problem's name: TRÒ CHƠI TRÍ TUỆ
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Có N bạn sinh viên được chia thành 2 nhóm A và B và được xếp theo vòng tròn. Luật của trò chơi như sau:
+Giả sử người chơi đầu tiên là người thứ i. Thứ tự lượt chơi là i, i+1, …, N, 1, 2, …, i-1, … tiếp tục cho đến khi nào trò chơi kết thúc.
+Ban đầu khởi tạo số C = 0. Mỗi lượt, người chơi chọn một số có giá trị trong đoạn [1, K] để cộng vào giá trị C. Nếu người đội nào làm cho giá trị C lớn hơn hoặc bằng M, đội đó sẽ bị xử thua.
+Biết rằng cả 2 đội đều có chiến thuật chơi tối ưu. Các bạn hãy xác định xem đội nào là đội chiến thắng với mỗi người chơi đầu tiên khác nhau.
+Input:
+Dòng đầu tiên chứa 3 số nguyên N, M và K (1 ≤ N, M, K ≤ 5000).
+Dòng tiếp theo gồm N kí tự, mô tả hai đội chơi. 0 là đội A, 1 là đôi B.
+Output: 
+In ra N kí tự. Kí tự thứ i cho biết đội chiến thắng nếu người chơi đầu tiên là người thứ i.
+ 
+Test ví dụ:
+Test 1
+Test 2
+Input:
+2 9 2
+0 1
+  Output:
+0 1
+  Input:
+10 100 10
+0 0 0 1 1 1 1 0 1 1
+  Output:
+1 1 1 1 1 1 1 1 1 1
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+2 9 2
+0 1
+  Output:
+0 1
+ 
+-----------------OUTPUT 0-----------------
+Input:
+10 100 10
+0 0 0 1 1 1 1 0 1 1
+  Output:
+1 1 1 1 1 1 1 1 1 1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,77 @@
+ID: PYKT12008
+Problem's name: MUA QUÀ
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Tí và Tèo được cô giáo cử đi mua quà để thưởng cho các thành viên trong lớp. Lớp học có tất cả M bạn học sinh, vì vậy hai bạn phải mua M món quà.
+Tại cửa hàng quà lưu niệm có tất cả N món quà, món thứ i có giá bán bằng c[i]. Tuy nhiên, có A món quà mà Tí thích, và B món quà mà Tèo thích. Hai bạn tranh nhau một hồi, cuối cùng họ quyết định chọn một danh sách quà sao cho có ít nhất K món đồ mà cả 2 bạn cùng thích.
+Các bạn hãy xác định xem số tiền ít nhất cần phải chi trả để Tí và Tèo có thể mua được đủ số quà và thỏa mãn điều kiện của hai bạn hay không?
+Input:
+Dòng đầu tiên là N, M, K (1 ≤ N ≤ 100 000, 1 ≤ M, K ≤ N).
+Dòng tiếp theo gồm N số nguyên lần lượt là giá bán c[i] của món quà thứ i (1 ≤ c[i] ≤ 10^9).
+Dòng tiếp gồm số nguyên A, theo sau A số nguyên x[i], lần lượt là số thứ tự các món quà mà Tí thích.
+Dòng tiếp gồm số nguyên B, theo sau B số nguyên y[i], lần lượt là số thứ tự các món quà mà Tèo thích. (1 ≤ x[i], y[i] ≤ N).
+Output: 
+In ra một số nguyên là đáp án tìm được. Nếu không có phương án nào thỏa mãn, in ra -1.
+ 
+Ví dụ:
+Test 1
+Test 2
+Test 2
+Input:
+4 3 2
+3 2 2 1
+2
+1 2
+2
+1 3
+  Output:
+7
+  Input:
+4 3 2
+3 2 2 1
+2
+1 2
+3
+4 1 3
+  Output:
+6
+  Input:
+4 2 2
+3 2 2 1
+2
+1 2
+3
+4 1 3
+  Output:
+-1
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+4 3 2
+3 2 2 1
+2
+1 2
+2
+1 3
+  Output:
+7
+ 
+-----------------OUTPUT 0-----------------
+Input:
+4 3 2
+3 2 2 1
+2
+1 2
+3
+4 1 3
+  Output:
+6
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

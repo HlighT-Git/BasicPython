@@ -1,0 +1,25 @@
+ID: PYKT14004
+Problem's name: CÂN BẰNG
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Công viên PTIT thiết kế trò chơi đu quay có 4 góc. Mỗi góc ngồi được tối đa 3 người. Để chiếc đu quay này có thể vận hành an toàn thì cần sắp xếp sao cho tổng khối lượng của các góc chênh lệch ít nhất có thể.
+Có đúng 12 người chơi. Hãy tính chênh lệch ít nhất có thể của nhóm “nặng nhất” và nhóm “nhẹ nhất”.
+Input
+Gồm 12 số (có thể viết trên một dòng hoặc nhiều dòng nhưng không có dòng trống) lần lượt là khối lượng của 12 người chơi (giá trị không quá 106).
+Output
+In ra giá trị chênh lệch ít nhất
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2 3 4
+5 6 7 8 9 10
+11 12 13
+-----------------OUTPUT 0-----------------
+1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,27 @@
+ID: ICPC0112
+Problem's name: PRIME – TRIPLET
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Bộ ba số nguyên tố được gọi là Prime- Triplet nếu nó là bộ ba số nguyên tố dưới dạng (p, p +2, p + 6) hoặc (p, p + 4, p+6), trong đó p là một số nguyên tố. Ví dụ các bộ ba số (5, 7, 11) hoặc (7, 11, 13) đều là các Prime-Triplet. Cho số tự nhiên N, nhiệm vụ của bạn là đếm số các Prime-Triplet nhỏ hơn N.      
+Input:
+Dòng đầu tiên đưa vào T là số lượng bộ test.
+Những dòng tiếp theo, mỗi dòng đưa vào một test. Mỗi test là một số nguyên dương N.
+T, N thỏa mãn ràng buộc : 1≤T≤100; 1≤N ≤106;
+Output:
+Đưa ra kết quả mỗi test theo từng dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+15
+25
+-----------------OUTPUT 0-----------------
+2
+5
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

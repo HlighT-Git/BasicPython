@@ -1,0 +1,29 @@
+ID: PYKT13034
+Problem's name: DIỆN TÍCH TAM GIÁC - 3
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho N tam giác trên mặt phẳng Oxy. Nhiệm vụ của bạn là hãy tính diện tích bị che phủ bởi N tam giác này.
+ 
+
+Input:
+Dòng đầu tiên là số nguyên N (N ≤ 100).
+N dòng tiếp theo, mỗi dòng gồm 6 số nguyên x1, y1, x2, y2, x3, y3 là tọa độ của tam giác thứ i.
+(-10^6 ≤ x1, y1, x2, y2, x3, y3 ≤ 106).
+Output: 
+In ra đáp án tìm được với độ chính xác 6 chữ số sau dấu phảy.
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+1 1 5 1 3 3
+1 2 5 2 5 6
+1 6 5 2 1 2
+ 
+-----------------OUTPUT 0-----------------
+15.000000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,110 @@
+ID: ICPC0118
+Problem's name: CUNG HOÀNG ĐẠO
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Trong chiêm tinh học phương Tây, các cung Hoàng Đạo là mười hai cung 30° của Hoàng Đạo, bắt đầu từ điểm phân Vernal (một trong những giao điểm của Hoàng Đạo với Xích đạo thiên cầu), còn được gọi là Điểm Đầu của Bạch Dương. Thứ tự của các cung Hoàng Đạo là Bạch Dương, Kim Ngưu, Song Tử, Cự Giải, Sư Tử, Xử Nữ, Thiên Bình, Thiên Yết, Nhân Mã, Ma Kết, Bảo Bình và Song Ngư. Mỗi khu vực được đặt tên theo chòm sao mà nó đi qua trong lúc đặt tên. Cung hoàng đạo của một người được xác định dựa trên ngày sinh bằng bảng dưới đây:
+Cung
+Tên cung
+Thời gian
+    Bach Duong
+21 tháng 3 - 19 tháng 4
+  Kim Nguu
+20 tháng 4 - 20 tháng 5
+  Song Tu
+21 tháng 5 - 20 tháng 6
+  Cu Giai
+21 tháng 6 - 22 tháng 7
+  Su Tu
+23 tháng 7 - 22 tháng 8
+  Xu Nu
+23 tháng 8 - 22 tháng 9
+  Thien Binh
+23 tháng 9 - 22 tháng 10
+  Thien Yet
+23 tháng 10 - 22 tháng 11
+  Nhan Ma
+23 tháng 11 - 21 tháng 12
+  Ma Ket
+22 tháng 12 - 19 tháng 1
+  Bao Binh
+20 tháng 1 - 18 tháng 2
+  Song Ngu
+19 tháng 2 - 20 tháng 3
+ 
+ 
+ 
+Ví dụ: nếu sinh nhật của một người là vào ngày 5 tháng 5, thì họ là Kim Ngưu, vì nó nằm trong khoảng từ ngày 21 tháng 4 đến ngày 20 tháng 5.
+Nhiệm vụ của bạn là xác định cung hoàng đạo của một ngày sinh bất kỳ.
+Input:
+Dòng đầu tiên đưa vào số lượng bộ test T.
+Những dòng kế tiếp đưa vào T bộ test. Mỗi bộ test gồm 2 số cách nhau bởi một khoảng trống d và m, trong đó d là ngày, m là tháng.
+Output:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+ 
+|||||||||||||||||INPUT 1||||||||||||||||||
+
+|||||||||||||||||INPUT 2||||||||||||||||||
+
+-----------------OUTPUT 1-----------------
+Bach Duong
+|||||||||||||||||INPUT 3||||||||||||||||||
+
+-----------------OUTPUT 2-----------------
+Kim Nguu
+|||||||||||||||||INPUT 4||||||||||||||||||
+
+-----------------OUTPUT 3-----------------
+Song Tu
+|||||||||||||||||INPUT 5||||||||||||||||||
+
+-----------------OUTPUT 4-----------------
+Cu Giai
+|||||||||||||||||INPUT 6||||||||||||||||||
+
+-----------------OUTPUT 5-----------------
+Su Tu
+|||||||||||||||||INPUT 7||||||||||||||||||
+
+-----------------OUTPUT 6-----------------
+Xu Nu
+|||||||||||||||||INPUT 8||||||||||||||||||
+
+-----------------OUTPUT 7-----------------
+Thien Binh
+|||||||||||||||||INPUT 9||||||||||||||||||
+
+-----------------OUTPUT 8-----------------
+Thien Yet
+|||||||||||||||||INPUT 10||||||||||||||||||
+
+-----------------OUTPUT 9-----------------
+Nhan Ma
+|||||||||||||||||INPUT 11||||||||||||||||||
+
+-----------------OUTPUT 10-----------------
+Ma Ket
+|||||||||||||||||INPUT 12||||||||||||||||||
+
+-----------------OUTPUT 11-----------------
+Bao Binh
+|||||||||||||||||INPUT 13||||||||||||||||||
+Input
+-----------------OUTPUT 12-----------------
+Song Ngu
+|||||||||||||||||INPUT 14||||||||||||||||||
+2
+5 5
+30 7
+-----------------OUTPUT 13-----------------
+Output
+-----------------OUTPUT 14-----------------
+Kim Nguu
+Su Tu
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

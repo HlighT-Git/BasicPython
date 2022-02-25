@@ -1,0 +1,5 @@
+ID: PYKT064
+Problem's name: KHÔNG CÙNG THÀNH PHẦN LIÊN THÔNG
+Type: BÀI TẬP TRUNG BÌNH
+Topic: TỪ ĐIỂN
+

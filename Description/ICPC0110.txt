@@ -1,0 +1,31 @@
+ID: ICPC0110
+Problem's name: MAX TRIPLE
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho mảng A[] gồm N số nguyên.      
+Nhiệm vụ của bạn là tìm tổng lớn nhất của bộ ba số trong mảng. Chú ý nếu sử dụng kỹ thuật sắp xếp, submit lời giải của bạn sẽ bị fail.
+Ví dụ A[] = {1, 2, 3, 4, 5}, ta nhận được tổng lớn nhất của bộ ba số là 3 + 4 + 5 = 12. 
+Input:
+Dòng đầu tiên đưa vào T là số lượng bộ test.
+Những dòng tiếp theo, mỗi dòng đưa vào một test. Mỗi test là gồm hai dòng: dòng đầu tiên đưa vào N là số lượng phần tử của mảng A[]; dòng tiếp theo đưa vào các phần tử A[i] của mảng A[].
+T, N, A[i] thỏa mãn ràng buộc : 1≤T≤100; 1≤ N≤106; -108≤ A[i] ≤108;
+Output:
+Đưa ra kết quả mỗi test theo từng dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+7
+1 2 3 0 -1 8 10 
+7
+9 8 20 3 4 -1 0
+-----------------OUTPUT 0-----------------
+21
+37
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

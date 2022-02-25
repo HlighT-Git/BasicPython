@@ -1,0 +1,31 @@
+ID: PY02064
+Problem's name: BIỂU THỨC TOÁN HỌC
+Type: BÀI TẬP TRUNG BÌNH
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Cho dãy số a[] gồm có N phần tử. Nhiệm vụ của bạn là xác định nhóm chỉ số  sao cho biểu thức dưới đây đạt giá trị lớn nhất.
+
+Dữ liệu vào:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+Mỗi test bắt đầu bởi hai số nguyên N và K. (0 ≤ 5K ≤ N ≤ 1000).
+Dòng tiếp theo mô tả dãy số .
+Kết quả: 
+Với mỗi test, in ra giá trị lớn nhất của biểu thức S.
+Ví dụ:
+                             
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+5 1
+1 2 3 4 5
+6 1
+1 2 3 -3 -2 -1
+-----------------OUTPUT 0-----------------
+15
+13
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

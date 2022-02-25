@@ -1,0 +1,37 @@
+ID: PYKT2042
+Problem's name: GHÉP CẶP
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho số nguyên dương N, đếm số cách chia các số từ 1 đến 2N thành N nhóm, mỗi nhóm gồm 2 số mà hiệu hai số trong một nhóm bằng hiệu hai số trong nhóm khác.
+IInput:
+Dòng đầu tiên chứa số lượng bộ test T.
+Mỗi test gồm 1 số nguyên dương N.
+Giới hạn:
+Subtask 1 (50%): T, N <= 10000
+Subtask 2 (50%): T <= 10^5, N <= 10^6.
+Output:
+Với mỗi test, hãy in ra đáp án tìm được trên một dòng.
+Example:
+Input
+Output
+2
+1
+2
+1
+2
+Giải thích test 2: Có 2 cách chia nhóm là:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+1
+2
+-----------------OUTPUT 0-----------------
+1
+2
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

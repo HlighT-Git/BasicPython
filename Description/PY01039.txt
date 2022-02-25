@@ -1,0 +1,28 @@
+ID: PY01039
+Problem's name: KIỂM TRA SỐ ĐẸP
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Một số nguyên dương được gọi là đẹp nếu số đó chỉ có hai chữ số khác nhau và các chữ số ở cách nhau 2 vị trí đều bằng nhau. Ví dụ: 121, 1313131, 5656 …
+Viết chương trình kiểm tra một số có phải số đẹp hay không?
+Input
+Dòng đầu ghi số bộ test. Mỗi bộ test ghi một số nguyên dương N (lớn hơn 10 và có không quá 18 chữ số) trên một dòng.
+Output
+Với mỗi bộ test, ghi ra YES hoặc NO tùy thuộc kết quả kiểm tra.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+12121212
+343433
+78789989
+-----------------OUTPUT 0-----------------
+YES
+NO
+NO
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

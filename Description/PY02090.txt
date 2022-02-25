@@ -1,0 +1,36 @@
+ID: PY02090
+Problem's name: MA TRẬN CON TỔNG BẰNG K
+Type: BÀI TẬP TRUNG BÌNH
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho ma trận đơn vị A[][] (chỉ có các giá trị 0,1) có kích thước NxM. Nhiệm vụ của bạn là hãy đếm số lượng ma trận đơn vị con của A[][] có tổng các phần tử bằng K cho trước.
+Dữ liệu vào:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+Mỗi test gồm số nguyên N, M và K (3 ≤ N, M ≤ 1000; 1 ≤ K ≤ 4) .
+N dòng tiếp theo, mỗi dòng gồm một xâu có độ dài bằng M, mô tả một hàng của ma trận.
+Kết quả: 
+Với mỗi test, in ra số lượng hình chữ nhật có tổng bằng K tìm được.
+Ví dụ:                  
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+5 5 4
+01010
+10101
+01010
+10101
+01010
+4 4 4
+1111
+1111
+1111
+1111
+-----------------OUTPUT 0-----------------
+21
+17
+_______________________________________________________________________________
+
+Giới hạn thời gian: 10s
+Giới hạn bộ nhớ: 200000 Kb

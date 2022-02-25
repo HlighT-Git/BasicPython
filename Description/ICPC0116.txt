@@ -1,0 +1,27 @@
+ID: ICPC0116
+Problem's name: CON SỐ DUYÊN NỢ
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Con số duyên nợ là con số có chữ số đầu và chữ số cuối giống nhau.
+Viết chương trình kiểm tra xem một số nguyên dương n ghi trong hệ thập phân có chữ số đầu và chữ số cuối giống nhau không?
+Input
+Gồm nhiều dòng, mỗi dòng chứa một số nguyên dương n ghi ở hệ thập phân.
+Giới hạn:
+1≤n≤10^100
+Output
+Ứng với mỗi số nguyên dương n, ghi ra trên một dòng là YES nếu số n tương ứng có chữ số đầu và chữ số cuối giống nhau, NO nếu ngược lại.
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+12345
+123451
+-----------------OUTPUT 0-----------------
+NO
+YES
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

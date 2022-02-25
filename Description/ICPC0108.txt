@@ -1,0 +1,29 @@
+ID: ICPC0108
+Problem's name: SUM TRIPLE ZERO
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho mảng A[] gồm N số nguyên khác nhau. Nhiệm vụ của bạn là đếm số lượng các bộ ba phần tử khác nhau có tổng là 0. Ví dụ A[] = {0, -1, 2, -3, 1}, ta nhận được kết quả là 2 vì có hai bộ 3: (0, -1, 1) và (2, -3, 1).
+Input:
+Dòng đầu tiên đưa vào T là số lượng bộ test.
+Những dòng tiếp theo, mỗi dòng đưa vào một test. Mỗi test là gồm hai dòng: dòng đầu tiên đưa vào N là số lượng phần tử của mảng A[]; dòng tiếp theo đưa vào các phần tử A[i] của mảng A[].
+T, N, A[i] thỏa mãn ràng buộc : 1≤T≤100; 1≤ N≤103; -109≤ A[i] ≤109;
+Output:
+Đưa ra kết quả mỗi test theo từng dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+5
+0 -1 2 -3 1 
+5
+1 -2  1  0  5
+-----------------OUTPUT 0-----------------
+2
+1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 3s
+Giới hạn bộ nhớ: 65536 Kb

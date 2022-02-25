@@ -1,0 +1,36 @@
+ID: PYKT13039
+Problem's name: HÌNH TRÒN - 2
+Type: BÀI TẬP NÂNG CAO
+Topic: ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Bắt đầu từ một hình tròn lớn nội tiếp tam giác vuông (hình 1) người ta thử vẽ thêm các hình tròn nhỏ hơn tiếp xúc với cạnh huyền, cạnh góc vuông của tam giác và tiếp xúc với đường tròn lớn ban đầu (hình 2).
+
+Hình 1: Hình tròn nội tiếp tam giác vuông
+
+Hình 2: Vẽ thêm hình tròn thứ 2 tiếp xúc hình tròn thứ nhất và hai cạnh của tam giác
+ 
+Tiếp tục theo cách như vậy người ta có thể vẽ vô hạn hình tròn nhỏ hơn nữa. Khi số lượng hình tròn đã rất lớn (tiến đến vô hạn), người ta muốn tính xem diện tích được bao phủ bởi các hình tròn bằng bao nhiêu phần diện tích của tam giác vuông.
+Input
+Chỉ có một dòng ghi hai cạnh góc vuông của tam giác vuông (là hai số nguyên dương khác nhau, không quá 105).
+Output
+Ghi ra tỉ lệ diện tích của tất cả các hình tròn trên diện tích tam giác (tính chính xác đến 4 số sau dấu phẩy).
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3 4
+|||||||||||||||||INPUT 1||||||||||||||||||
+Input 2
+-----------------OUTPUT 0-----------------
+0.7171
+|||||||||||||||||INPUT 2||||||||||||||||||
+12 16
+-----------------OUTPUT 1-----------------
+Output 2
+-----------------OUTPUT 2-----------------
+0.7171
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

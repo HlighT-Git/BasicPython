@@ -1,0 +1,30 @@
+ID: ICPC0114
+Problem's name: PERFECT PRIME
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Một số nguyên dương N được gọi là Perfect Prime nếu N là số nguyên tố; đảo ngược các chữ số của N cũng là một số nguyên tố; tổng các chữ số của N là một số nguyên tố và mỗi chữ số của N cũng là một số nguyên tố. Cho số nguyên dương N, hãy kiểm tra N có phải là Perfect Prime hay không? Đưa ra “Yes” nếu N là Perfect Prime, ngược lại đưa ra “No”.
+Input:
+Dòng đầu tiên đưa vào T là số lượng bộ test.
+Những dòng tiếp theo, mỗi dòng đưa vào một test. Mỗi test là một số nguyên dương N.
+T, N thỏa mãn ràng buộc : 1≤T≤100; 1≤N ≤107;
+Output:
+Đưa ra kết quả mỗi test theo từng dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+13
+753
+757
+-----------------OUTPUT 0-----------------
+No
+No
+Yes
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

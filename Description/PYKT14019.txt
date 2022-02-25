@@ -1,0 +1,52 @@
+ID: PYKT14019
+Problem's name: ĐẦU BẾP
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Một hôm nọ, Tom khám phá ra một loại bánh mới nên mời n người bạn đến nhà để thử tay nghề của mình. Do chưa rành công thức lắm và muốn thử nghiệm nên Tom đã làm ra n chiếc bánh với tỉ lệ nguyên liệu khác nhau. Nhưng Tom biết chắc chắn rằng để chiếc bánh thứ i ngon hoàn hảo thì cần phải nướng ti phút. Tuy nhiên vì số lượng bánh lớn nên Tom đã quyết định sẽ cho hết cả n chiếc bánh vào trong lò nướng. Ở mỗi phút, Tom chỉ có thể đưa 1  và chỉ 1 chiếc bánh ra khỏi lò nướng. Gỉa sử thời điểm lấy chiếc bánh thứ i ra là xi thì độ tệ của chiếc bánh sẽ bằng trị tuyệt đối của (ti - xi). Tom muốn tổng độ tệ của n chiếc bánh là ít nhất có thể. Và giờ Tom đang rất đau đầu với việc đó. Bạn có thể giúp Tom không ?
+Input:
+Dòng đầu tiên gồm 1 số t là số lượng bộ test t (1 ≤ t ≤  200)
+Mỗi bộ test sẽ có dạng như sau:
+Dòng đầu tiên gồm số n  - số lượng bánh ( 1≤  n ≤  200)
+Dòng thứ 2 gồm n số nguyên t1, t2,..., tn (1 ≤  ti ≤  n) là thời gian mà chiếc bánh thứ i cần nướng để đạt được độ ngon hoàn hảo.
+Tổng của n ở tất cả các bộ test ≤  200.
+Output:
+Với mỗi bộ test, in ra kết quả bài toán ứng với bộ test đó trên 1 dòng.
+Ví dụ:
+Input
+Output
+2
+6
+4 2 4 4 5 2
+7
+7 7 7 7 7 7 7
+  4
+12
+ 
+ 
+Giải thích:
+Ở test 1.  Các chiếc bánh sẽ được lấy ra ở thời điểm như sau:
+Phút 1: Lấy chiếc bánh thứ 2 (có ti = 2) ra. Độ tệ = abs(2 - 1) = 1
+Phút 2: Lấy chiếc bánh thứ 6 (có ti = 2) ra. Độ tệ = abs(2-2) = 0
+Phút 3: Lấy chiếc bánh thứ 1 (có ti = 4) ra. Độ tệ = abs(4 - 3) = 1
+Phút 4: Lấy chiếc bánh thứ 4 (có ti = 4) ra. Độ tệ = abs(4 - 4) = 0
+Phút 5: Lấy chiếc bánh thứ 3 (có ti = 4) ra. Độ tệ = abs(4-5) = 1
+Phút 6: Lấy chiếc bánh thứ 5 (có ti = 5) ra.  Độ tệ = abs(5 - 6) = 1
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+6
+4 2 4 4 5 2
+7
+7 7 7 7 7 7 7
+ 
+-----------------OUTPUT 0-----------------
+4
+12
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

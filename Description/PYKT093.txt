@@ -1,0 +1,47 @@
+ID: PYKT093
+Problem's name: TÍNH ĐIỂM TRUNG BÌNH
+Type: BÀI TẬP NÂNG CAO
+Topic: ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Nhóm sinh viên PTIT cùng nhau đăng ký 3 môn học trong Học kỳ hè năm 2021 theo đúng thứ tự:
+Môn 1: Lập trình hướng đối tượng: 3 tín chỉ
+Môn 2: Ngôn ngữ lập trình C++: 3 tín chỉ
+Môn 3: Tin học cơ sở 2: 2 tín chỉ
+Người ta muốn xếp hạng thứ tự các sinh viên trong danh sách theo điểm trung bình giảm dần. Biết rằng điểm trung bình tính đến 2 số phần thập phân và nếu điểm bằng nhau thì thứ hạng cũng bằng nhau.
+Input
+Dòng đầu ghi số sinh viên (không quá 20).
+Mỗi sinh viên ghi trên 4 dòng gồm:
+Họ tên: có thể chưa được chuẩn hóa
+Điểm môn 1
+Điểm môn 2
+Điểm môn 3
+Các giá trị điểm là số nguyên và đảm bảo trong phạm vi từ 0 đến 10.
+Output
+Ghi ra danh sách sinh viên đã tính điểm và sắp xếp theo xếp hạng từ cao nhất đến thấp nhất, gồm các thông tin:
+Mã sinh viên (tự động tăng theo thứ tự nhập, tính từ SV01)
+Họ tên đã chuẩn hóa
+Điểm trung bình với đúng 2 số phần thập phân
+Xếp hạng
+Chú ý: 2 sinh viên có điểm trung bình bằng nhau thì xếp hạng bằng nhau, và nếu có 2 sinh viên hạng là X thì sinh viên tiếp theo trong danh sách có hạng X+2.
+Trong trường hợp xếp hạng bằng nhau thì cần sắp xếp theo mã sinh viên tăng dần.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+ ha Thi kieu     anh
+7
+6
+7
+Pham    THI  HAO
+6
+7
+6
+-----------------OUTPUT 0-----------------
+SV01 Ha Thi Kieu Anh 6.63 1
+SV02 Pham Thi Hao 6.38 2
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

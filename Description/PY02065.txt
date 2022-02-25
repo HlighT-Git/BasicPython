@@ -1,0 +1,67 @@
+ID: PY02065
+Problem's name: DIỆN TÍCH TOÀN PHẦN
+Type: BÀI TẬP TRUNG BÌNH
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Trên mỗi ô của vùng diện tích có kích thước MxN, các khối vuông đơn vị (kích thước 1x1x1) được xếp chồng lên nhau để tạo thành một khối lớn có chiều cao bằng H[i, j]. Các khối lớn khi được đặt cạnh nhau sẽ che phủ một phần mặt bên của chúng.
+Nhiệm vụ của bạn là hãy tính diện tích toàn phần của khối thể tích thu được, bao gồm cả phần bề mặt trên, mặt đáy và bốn mặt xung quanh.
+Dữ liệu vào:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+Mỗi test bắt đầu bởi hai số nguyên M và N. (0 ≤ M, N ≤ 1000).
+M dòng tiếp theo, mỗi dòng gồm N số nguyên mô tả chiều cao của ô (i, j). Chiều cao của mỗi ô không vượt quá 1000.
+Kết quả: 
+Với mỗi test, in ra diện tích toàn phẩn của khối thể tích được tạo thành.
+Ví dụ:                  
+Input
+Output
+5
+1 1
+1
+1 2
+1 2
+1 1
+2
+3 3
+1 1 1
+1 1 1
+1 1 1
+3 3
+1 1 1
+1 2 0
+1 0 2
+6
+14
+10
+30
+38
+   
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+5
+1 1
+1
+1 2
+1 2
+1 1
+2
+3 3
+1 1 1
+1 1 1
+1 1 1
+3 3
+1 1 1
+1 2 0
+1 0 2
+-----------------OUTPUT 0-----------------
+6
+14
+10
+30
+38
+   
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

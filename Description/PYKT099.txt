@@ -1,0 +1,33 @@
+ID: PYKT099
+Problem's name: HIỆU CỦA HAI TẬP TỪ
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho hai file văn bản DATA1.in và DATA2.in.
+Một từ được định nghĩa là một dãy ký tự liên tiếp không có khoảng trống, dấu tab hay dấu xuống dòng. Tạm thời chưa xét đến các dấu câu trong bải toán này.
+Hãy viết chương trình liệt kê  tập hợp các từ có mặt trong file DATA1.in nhưng không có trong file DATA2.in và ngược lại.
+Các từ được chuyển hết về dạng chữ thường trước khi so sánh. Kết quả cần liệt kê theo thứ tự từ điển.
+Input
+Hai file văn bản DATA1.in và DATA2.in, có không quá 200 dòng.
+Output
+Dòng 1 ghi các từ khác nhau có mặt trong file DATA1.in nhưng không có trong file DATA2.in.
+Dòng 2 ghi các từ khác nhau có mặt trong file DATA2.in nhưng không có trong file DATA1.in.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+lap trinh huong doi tuong
+ngon ngu lap trinh C++
+|||||||||||||||||INPUT 1||||||||||||||||||
+DATA2.in
+|||||||||||||||||INPUT 2||||||||||||||||||
+lap trinh co ban
+lap trinh huong thanh phan
+-----------------OUTPUT 0-----------------
+c++ doi ngon ngu tuong
+ban co phan thanh
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

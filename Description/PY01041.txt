@@ -1,0 +1,31 @@
+ID: PY01041
+Problem's name: SỐ TĂNG GIẢM
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Một số nguyên dương được gọi là số tăng giảm nếu thỏa mãn các điều kiện:
+Có từ 3 chữ số trở lên
+Tìm ra một vị trí trong dãy chữ số sao cho từ bên trái đến vị trí đó thỏa mãn thứ tự tăng dần (tăng chặt) còn từ vị trí đó đến hết thì thỏa mãn thứ tự giảm dần (giảm chặt).
+Viết chương trình kiểm tra một số có phải số tăng giảm hay không.
+Input
+Dòng đầu ghi số bộ test. Mỗi bộ test viết trên một dòng số nguyên dương N không quá 18 chữ số
+Output
+Với mỗi bộ test, ghi ra YES hoặc NO tùy thuộc kết quả kiểm tra.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+12342
+23342
+5678961
+-----------------OUTPUT 0-----------------
+YES
+NO
+YES
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

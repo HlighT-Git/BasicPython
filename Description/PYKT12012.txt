@@ -1,0 +1,40 @@
+ID: PYKT12012
+Problem's name: VẪN LÀ XÁC SUẤT CHỌN BIT
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Chọn ngẫu nhiên một số X trong đoạn [A, B], sau đó chọn ngẫu nhiên một bit của X. Xác suất để bit chọn được là bit 1 bằng bao nhiêu?
+Input
+Dòng đầu tiên là số lượng bộ test T (T ≤ 200).
+Mỗi test gồm 2 số nguyên A và B (1 ≤ A ≤ B ≤ 10^10).
+Output
+In ra đáp án tìm được với độ chính xác 5 chữ số sau dấu phảy.
+ 
+Ví dụ:
+Input
+Output
+3
+2 4
+3 5
+20 40
+0.61111
+0.66667
+0.55556
+ 
+Giải thích test 1:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+2 4
+3 5
+20 40
+-----------------OUTPUT 0-----------------
+0.61111
+0.66667
+0.55556
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

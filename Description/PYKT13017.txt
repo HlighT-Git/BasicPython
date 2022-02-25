@@ -1,0 +1,43 @@
+ID: PYKT13017
+Problem's name: BỘ BA SỐ PYTAGO (bản khó)
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+3 số a, b, c được gọi là một bộ số Pytago nếu như a2 + b2 = c2.
+Cho số nguyên N, nhiệm vụ của bạn là hãy đếm bộ số (a, b, c) thỏa mãn 1 ≤a, b, c≤ N-1, a ≤b và a2 + b2 = c2 (mod N).
+Input:
+Một số nguyên dương N (2 ≤ N ≤ 500 000).
+Output: 
+In ra một số nguyên là số bộ 3 số tìm được.
+ 
+Ví dụ:
+Test 1
+Test 2
+Input:
+7
+  Output:
+18
+  Input:
+15
+  Output:
+64
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Input:
+7
+  Output:
+18
+ 
+-----------------OUTPUT 0-----------------
+Input:
+15
+  Output:
+64
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

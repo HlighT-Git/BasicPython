@@ -1,0 +1,30 @@
+ID: PYKT059
+Problem's name: THÀNH PHẦN LIÊN THÔNG
+Type: BÀI TẬP TRUNG BÌNH
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Cho đồ thị vô hướng G có N đỉnh, M cạnh. 
+Hãy liệt kê các đỉnh không cùng thành phần liên thông với một đỉnh cho trước.
+Input
+Dòng đầu ghi 3 số N, M và X (0 < N < 300; 1 ≤ M ≤ N*(N-1)/2), 0 < X < N).
+Tiếp theo là M dòng, mỗi dòng ghi một cạnh của đồ thị. Các cạnh được liệt kê với thứ tự bất kỳ.
+Output
+Ghi ra các đỉnh không liên thông với đỉnh X theo thứ tự tăng dần, mỗi dòng ghi một đỉnh. Nếu không có đỉnh nào thì ghi ra số 0.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+6 4 2
+1 3
+2 3
+1 2
+4 5
+-----------------OUTPUT 0-----------------
+4
+5
+6
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

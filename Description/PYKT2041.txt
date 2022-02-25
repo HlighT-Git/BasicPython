@@ -1,0 +1,33 @@
+ID: PYKT2041
+Problem's name: TAM GIÁC VUÔNG CÂN
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho vùng tọa độ Oxy bị giới hạn bởi gốc tọa độ (0, 0) và điểm trên cùng bên phải (X, Y). Nhiệm vụ của bạn là hãy xác định xem có bao nhiêu tam giác vuông cân.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T <= 100).
+Mỗi test gồm hai số nguyên X và Y.
+Giới hạn:
+Subtask 1 (25%) 0 <= X, Y <= 20.
+Subtask 2 (25%) 0 <= X, Y <= 100.
+Subtask 3 (50%) 0 <= X, Y <= 1000.
+Output: 
+Với mỗi test, in ra số tam giác vuông tìm được trên một dòng.
+ 
+Example:            
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+0 5
+1 2
+1 1
+-----------------OUTPUT 0-----------------
+0
+10
+4
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,36 @@
+ID: PY04011
+Problem's name: LỚN HƠN – NHỎ HƠN
+Type: BÀI TẬP TRUNG BÌNH
+Topic: ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Để kiểm tra tư duy của các thành viên, câu lạc bộ IT PTIT ra một đề toán logic trong đó các tên thành viên trong CLB được sử dụng để đưa vào phép các phép so sánh. Chỉ có hai phép so sánh được sử dụng là lớn hơn và nhỏ hơn.
+Cho trước một dãy các phép so sánh, hãy chỉ ra liệu có thể tất cả các phép so sánh đó đều đúng hay không?
+Dữ liệu vào
+Dòng đầu ghi số N là số phép so sánh. (1 ≤ N ≤ 105).
+Mỗi phép so sánh gồm 2 tên thành viên và một dấu lớn hơn hoặc nhỏ hơn, mỗi cái tên là một dãy ký tự không quá 20 chữ cái, không có khoảng trống.
+Kết quả
+Ghi ra “possible” nếu tất cả phép so sánh đều có thể đúng hoặc “impossible” nếu ngược lại.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+An > Binh
+Binh > Cong
+An < Cong
+|||||||||||||||||INPUT 1||||||||||||||||||
+3
+An > Binh
+Binh > Cong
+An > Cong
+-----------------OUTPUT 0-----------------
+impossible
+ 
+-----------------OUTPUT 1-----------------
+possible
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

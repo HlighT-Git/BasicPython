@@ -1,0 +1,53 @@
+ID: PY02068
+Problem's name: XỬ LÝ ẢNH
+Type: BÀI TẬP TRUNG BÌNH
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Phương pháp làm mịn ảnh được thực hiện bằng cách sử dụng phép tích chập (convolution) giữa ma trận ảnh và một ma trận kernel có dạng:
+
+Ma trận kernel trong ví dụ trên có kích thước bằng 5. Với ma trận kernel có kích thước L = 2k + 1, giá trị điểm ảnh (i,j) của ma trận mới sẽ bằng tổng của (2k + 1) x (2k + 1) phần tử (i+u, j+v) với mọi –k ≤ u,v ≤ k, sau đó chia cho (2k + 1) x (2k + 1). Kết quả điểm ảnh mới thu được sau khi thực hiện phép chia sẽ được làm tròn xuống.
+Cho ma trận ảnh đầu vào và kích thước L của ma trận kernel, nhiệm vụ của bạn là hãy in ra ma trận ảnh sau khi được làm mịn.
+Dữ liệu vào:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+Mỗi test bắt đầu bởi hai số nguyên N, M và L (3 ≤ N,M ≤ 500; L ≤ min(n,m)). L được đảm bảo là một số nguyên lẻ.
+Kế tiếp là N dòng, mỗi dòng gồm M số nguyên mô tả ma trận ảnh đầu vào, có giá trị trong phạm vi từ 0 tới 255.
+Kết quả: 
+Với mỗi test, hãy in ra ma trận ảnh sau khi đã được làm mịn.
+Ví dụ:                  
+Input
+Output
+2
+4 4 3
+2 1 0 0
+3 2 1 1
+4 5 2 1
+2 2 9 0
+3 3 3
+1 2 3
+4 5 6
+7 8 9
+2 1
+3 1
+5
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+4 4 3
+2 1 0 0
+3 2 1 1
+4 5 2 1
+2 2 9 0
+3 3 3
+1 2 3
+4 5 6
+7 8 9
+-----------------OUTPUT 0-----------------
+2 1
+3 1
+5
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

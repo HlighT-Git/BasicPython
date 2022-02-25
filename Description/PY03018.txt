@@ -1,0 +1,34 @@
+ID: PY03018
+Problem's name: SỐ BƯỚC DI CHUYỂN ÍT NHẤT
+Type: BÀI TẬP TRUNG BÌNH
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Cho ma trận A kích thước N*M.
+Hãy tìm số bước đi ít nhất để di chuyển từ vị trí A[1][1] đến vị trí A[N][M].
+Biết rằng mỗi bước từ vị trí (i, j) ta có thể di chuyển theo một trong ba hướng:
+Hướng xuống dưới với số ô di chuyển là hiệu hai giá trị A[i][j] và A[i+1][j]
+Hướng sang phải với số ô di chuyển là hiệu hai giá trị A[i][j] và A[i][j+1]
+Hướng chéo xuống với số ô di chuyển là hiệu của hai giá trị A[i][j] và A[i+1][j+1]
+Input:
+Dòng đầu tiên đưa vào số lượng test T.
+Dòng tiếp theo đưa vào các bộ test. Mỗi bộ test gồm hai phần: phần thứ nhất là hai số N, M; phần thứ hai là các phần tử của ma trận A[][]; các số được viết cách nhau một vài khoảng trống.
+T, N, M, A[i][j] thỏa mãn ràng buộc: 1≤T≤100; 1≤ N, M, A[i][j]≤103.
+Output:
+Đưa ra kết quả mỗi test theo từng dòng.
+Nếu không tìm được đường đi ghi ra -1
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+1
+3 3
+2 1 2
+1 2 4
+1 3 2
+-----------------OUTPUT 0-----------------
+3
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

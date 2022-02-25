@@ -1,0 +1,29 @@
+ID: PY01043
+Problem's name: SỐ THUẬN NGHỊCH CHẴN
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Cho số nguyên dương N không quá 6 chữ số.
+Hãy liệt kê các số nhỏ hơn N thỏa mãn cả ba điều kiện:
+N là số thuận nghịch
+Tất cả các chữ số của N đều chẵn
+Số chữ số của N cũng là một số chẵn
+Input
+Dòng đầu ghi số bộ test (không quá 10). Mỗi test viết một số N (22 < N <106)
+Output
+Ghi kết quả của mỗi test trên một dòng, mỗi số cách nhau đúng một khoảng trống.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+30
+100
+-----------------OUTPUT 0-----------------
+22
+22 44 66 88
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

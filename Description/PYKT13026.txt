@@ -1,0 +1,39 @@
+ID: PYKT13026
+Problem's name: GHÉP HÌNH
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Chuyện kể rằng ở một hiệu sách nọ, có 1 ông chủ đã già nên trí nhớ kém. Một hôm anh shipper đến để kiểm kê lại sách trước khi đem giao. Xui cho anh shipper là ông chủ trí nhớ lẩm cẩm, lại không nhớ hóa đơn mua sách để đâu và đã quên béng mất số lượng sách cần phải giao. Thật may là ông còn 1 vài chi tiết ông còn nhớ. Ở cửa hàng của mình, ông có các miếng bìa cát tông, khi có sách về, ông sẽ "tái chế " chúng để đựng sách. Với mỗi miếng bìa các tông hình chữ nhật có chiều dài 2 cạnh là a và b, ông sẽ cắt 4 góc của miếng bìa các tông sau đó dựng lên để thành 1 hình hộp chữ nhật. Xem hình dưới để biết thêm chi tiết :
+
+Dễ dàng thấy được rằng với mỗi cách cắt 4 góc ta sẽ được 1 hình hộp chữ nhật với thể tích khác nhau (đương nhiên vẫn phải đảm bảo chiều dài các cạnh > 0). Ông chủ nhớ được rằng, với 3 loại hộp có thể tích lớn nhất, khi ông xếp tất cả số sách phải ship vào loại lớn nhất thì sẽ bị dư ra x cuốn sách, nếu xếp vào loại lớn thứ 2 thì sẽ dư ra y cuốn sách, xếp vào loại lớn thứ 3 thì sẽ dư ra z cuốn sách. (Ta coi mỗi cuốn sách là 1 hình lập phương 1x1x1) Ông cũng nhớ là số sách nằm trong khoảng từ l đến r (tính cả l và r). Lần này anh shipper thật sự bất lực và cầu cứu bạn, là một lập trình viên đại tài, bạn có thể giúp  anh ấy tìm ra được số sách cần phải ship không ?
+Input:
+Dòng đầu thi số bộ test (không quá 10).
+Mỗi test ghi trên một dòng 7 số lần lượt là : a,b,x,y,z,l,r
+Trong đó : a,b là kích thước của bìa các tông ( 7 ≤ a ≤ b ≤ 100)
+x,y,z lần lượt là số sách bị dư ra khi xếp  tất cả sách vào 3 loại hộp có thể tích lớn nhất
+l,r là khoảng mà số sách cần tìm nằm ở trong
+Output:
+Một số nguyên duy nhất là kết quả bài toán. Nếu có nhiều đáp án thỏa mãn, hãy đưa ra đáp án nhỏ nhất.
+Note: Thể tích của hình hộp chữ nhật là : a * b * h với a,b là chiều dài 2 cạnh đáy và h là chiều cao
+Ví dụ:
+Input
+Output
+1
+16 21 407 409 17 20000 30000
+22457
+ 
+Giải thích test:
+Bìa các tông có kích thước là 16 x 21, 3 thể tích lớn nhất có thể đạt được khi cắt 4 góc của bìa các tông lần lượt là:  450, 416, 408.
+Khi xếp 22457 cuốn sách vào loại hộp có thể tích 450 ta sẽ xếp được 49 cuốn sách mỗi hộp và còn dư 409 cuốn sách.
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+1
+16 21 407 409 17 20000 30000
+-----------------OUTPUT 0-----------------
+22457
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,40 @@
+ID: PYKT13007
+Problem's name: TỔNG CHUỖI MA TRẬN
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Phép cộng hai ma trận có cùng kích thước  , ma trận tổng   có kích thước  , phần tử đứng ở hàng thứ , cột thứ  xác định bởi:
+
+Phép nhân hai ma trận chỉ thực hiện được khi số cột của ma trận bên trái bằng số dòng của ma trận bên phải. Nếu ma trận   có kích thước  và ma trận   có kích thước  , thì ma trận tích   có kích thước  , phần tử đứng ở hàng thứ , cột thứ  xác định bởi:
+,11,,22,+..+
+Phép nhân ma trận có các tính chất sau:
+Tính chất kết hợp: ×( ;
+Tính chất phân phối:
+ 
+;
+Cần chú ý rằng phép nhân ma trận không giao hoán.
+Ví dụ,
+; ; ...
+
+Yêu cầu: Cho ma trận  kích thước  và số nguyên dương , hãy tính +..+ .
+Input:
+Dòng đầu chứa hai số nguyên n và k (1 ≤ n ≤ 20, 1 ≤ k ≤ 10^9).
+Dòng tiếp theo, mỗi dòng chứa n số nguyên biểu diễn ma trận A.
+Output:
+In ra n dòng, mỗi dòng  số mô tả ma trận , vì giá trị mỗi phần tử của ma trận  có thể rất lớn, do đó chỉ cần đưa ra chữ số cuối cùng của từng phần tử của ma trận .
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2 3
+0 1
+1 1
+ 
+-----------------OUTPUT 0-----------------
+2 4
+4 6
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

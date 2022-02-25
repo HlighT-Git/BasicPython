@@ -1,0 +1,43 @@
+ID: PY01074
+Problem's name: TỔNG ƯỚC SỐ
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Cho N số nguyên. Nhiệm vụ của bạn là phân tích các số nguyên đã cho dưới dạng tích của các thừa số nguyên tố, sau đó tính tổng các ước số nguyên tố này.
+Input:
+Dòng đầu tiên số nguyên N (1 ≤≤ N ≤ 106).
+N dòng tiếp theo, mỗi dòng gồm một số nguyên có giá trị không vượt quá 2*106.
+Output
+In ra một số nguyên là đáp án tìm được.
+Ví dụ
+Input:
+Output:
+5 
+7
+9 
+10 
+13 
+100
+47
+ 
+Giải thích test:
+7 = 7
+9 = 3 x 3 à 3 + 3 = 6
+10 = 2 x 5 à 2 + 5 = 7
+13 = 13
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+5 
+7
+9 
+10 
+13 
+100
+-----------------OUTPUT 0-----------------
+47
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

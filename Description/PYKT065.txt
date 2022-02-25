@@ -1,0 +1,36 @@
+ID: PYKT065
+Problem's name: KIỂM TRA CHIA HẾT
+Type: BÀI TẬP CƠ BẢN
+Topic: BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+
+_______________________________________________________________________________
+Cho ba số nguyên dương L, R và N. Viết chương trình đếm số lượng các số thỏa mãn cả hai điều kiện:
+Nằm trong đoạn [L, R].
+Không chia hết cho bất kỳ số nào trong đoạn [2, N].
+Input
+Với mỗi bộ test:
+Dòng đầu gồm 2 số nguyên dương L, R (1 ≤ L, R ≤ 1018).
+Dòng thứ 2 chứa số nguyên dương N (2 ≤ N ≤ 50).
+Input kết thúc với một dòng chứa số nguyên -1.
+Output
+Với mỗi bộ test, in ra kết quả trong một dòng.
+Ví dụ
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+1 10
+10
+2001 2309
+50
+34 2003
+50
+-1
+-----------------OUTPUT 0-----------------
+1
+40
+289
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

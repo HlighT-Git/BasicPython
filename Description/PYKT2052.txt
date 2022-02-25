@@ -1,0 +1,56 @@
+ID: PYKT2052
+Problem's name: XỬ LÝ RỜI RẠC HÓA DỮ LIỆU
+Type: BÀI TẬP NÂNG CAO
+Topic: TỪ ĐIỂN
+
+
+_______________________________________________________________________________
+Cho ma trận A[][] kích thước N x M. Nhiệm vụ của bạn là hãy ánh xạ mỗi phần tử A[i][j] thành một phần tử B[i][j] để thu được ma trận B[][] mới thỏa mãn:
+B có số lượng phần tử riêng biệt ít nhất có thể
+Với mỗi hàng i (1 <= i <= N),
+nếu A[i][j] == A[i][k] thì B[i][j] = B[i][k];
+nếu A[i][j] < A[i][k] thì B[i][j] < B[i][k].
+Với mỗi cột j (1 <= j <= M)
+nếu A[i][j] == A[k][j] thì B[i][j] = B[k][j];
+nếu A[i][j] < A[k][j] thì B[i][j] < B[k][j].
+Input
+Dòng đầu tiên chứa 2 số nguyên N và M (N x M <= 10^6).
+N dòng tiếp theo, mỗi dòng gồm M số nguyên mô tả ma trận A (0 <= A[i][j] <= 10^9)
+Output
+In ra đáp án là số lượng phần tử riêng biệt trong ma trận B tìm được.
+Test ví dụ:
+Input
+Output
+2 3
+8 11 16
+16 21 5
+  3
+  2 3
+8 11 16
+16 21 16
+  4
+ 
+Giải thích test 1:
+1 2 3
+3 2 1
+Giải thích test 2:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2 3
+8 11 16
+16 21 5
+ 
+|||||||||||||||||INPUT 1||||||||||||||||||
+2 3
+8 11 16
+16 21 16
+ 
+-----------------OUTPUT 0-----------------
+3
+ 
+-----------------OUTPUT 1-----------------
+4
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

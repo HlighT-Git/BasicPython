@@ -1,0 +1,27 @@
+ID: PYKT078
+Problem's name: SẮP XẾP DÃY SỐ
+Type: BÀI TẬP CƠ BẢN
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho dãy số nguyên x1 , x2 , … ,x  và số nguyên m
+- Tìm giá trị lớn nhất của dãy số.
+- Chèn m vào trước vị trí đầu tiên có giá trị bằng giá trị lớn nhất.
+- Sắp xếp lại dãy số sau chèn sao cho phần tử âm về đầu dãy, phần tử dương và bằng 0 về cuối dãy sao cho trật tự các phần tử không thay đổi.
+Input:
+Dòng đầu tiên cho T là số lượng bộ test.
+Mỗi bộ test bao gồm hai dòng, dòng 1 cho số n < 1000 là số lượng phần tử và số m sao cho  -109 < m < 109.
+Dòng thứ 2 của bộ test bao gồm m số nguyên -109 < Xi < 109
+Output:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+1
+5 3
+-1 2 3 4 -1
+-----------------OUTPUT 0-----------------
+-1 -1 2 3 3 4
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

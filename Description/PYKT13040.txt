@@ -1,0 +1,33 @@
+ID: PYKT13040
+Problem's name: HÌNH TRÒN - 3
+Type: BÀI TẬP NÂNG CAO
+Topic: ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Với 8 hình tròn có kích thước bằng nhau, người ta có thể xếp 8 hình tròn này vào một hình vuông theo cách như hình dưới đây.
+
+ 
+Bài toán đặt ra là cho trước kích thước hình vuông, hãy tính độ dài bán kích lớn nhất có thể của 8 hình tròn bằng nhau có thể xếp vào hình vuông đó.
+Input
+Chỉ có một số thực với 4 số phần thập phân cho biết diện tích hình vuông ban đầu.
+Output
+Ghi ra độ dài bán kính lớn nhất có thể của hình tròn, tính chính xác đến 4 số sau dấu phẩy.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+0.3438
+|||||||||||||||||INPUT 1||||||||||||||||||
+Input 2
+-----------------OUTPUT 0-----------------
+0.1000
+|||||||||||||||||INPUT 2||||||||||||||||||
+1.3753
+-----------------OUTPUT 1-----------------
+Output 2
+-----------------OUTPUT 2-----------------
+0.2000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

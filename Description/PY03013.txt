@@ -1,0 +1,37 @@
+ID: PY03013
+Problem's name: ĐẾM CHỮ SỐ
+Type: BÀI TẬP TRUNG BÌNH
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho 2 số nguyên A, B. Nhiệm vụ của bạn là hãy đếm xem mỗi chữ số sẽ xuất hiện bao nhiêu lần nếu như liệt kê tất cả các số từ A đến B.
+Input
+Số đầu tiên là số lượng bộ test T (T ≤ 5000). Mỗi test gồm 2 số nguyên A và B.
+Output
+Với mỗi test, hãy in ra trên một dòng 10 số nguyên, là tần số xuất hiện của các chữ số từ 0 đến 9.
+Example
+Input
+Output
+3
+1 9
+10 456
+123 2437
+  0 1 1 1 1 1 1 1 1 1
+85 195 195 195 152 92 85 84 84 84
+661 1738 1206 770 700 662 662 662 661 661
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+1 9
+10 456
+123 2437
+ 
+-----------------OUTPUT 0-----------------
+0 1 1 1 1 1 1 1 1 1
+85 195 195 195 152 92 85 84 84 84
+661 1738 1206 770 700 662 662 662 661 661
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

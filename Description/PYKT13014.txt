@@ -1,0 +1,35 @@
+ID: PYKT13014
+Problem's name: SỐ LỚN NHẤT VÀ NHỎ NHẤT
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Cho N số nguyên dương A[]. Mỗi lần, bạn chọn một tổ hợp gồm K số, như vậy, có tất cả C(K, N) cách chọn.
+Bài toán đặt ra là hãy tính tổng của sự chênh lệch giữa số lớn nhất và nhỏ nhất trong tổ hợp được chọn của tất cả C(K, N) lần.
+ 
+Input:
+Dòng đầu tiên là số nguyên N và K (1 ≤ N ≤ 105, 1 ≤ K ≤ N).
+Dòng tiếp theo gồm N số nguyên A[i] (0 ≤ A[i] ≤ 109).
+Output: 
+In ra đáp án tìm được theo modulo 109+7.
+ 
+Ví dụ:
+Input:
+Output:
+4 2
+10 20 30 40
+100
+ 
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4 2
+10 20 30 40
+-----------------OUTPUT 0-----------------
+100
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

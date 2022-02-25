@@ -1,0 +1,42 @@
+ID: PYKT13008
+Problem's name: GIẢI HỆ PHƯƠNG TRÌNH TUYẾN TÍNH
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Giải hệ phương trình Ax = B trong đó ma trận A có kích thước n x n, x và B là các vector cột có n phần tử:
+
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+Mỗi test bắt đầu bởi số nguyên N (2 ≤ N ≤ 20).
+N dòng tiếp theo, mỗi dòng gồm N phần tử mô tả ma trận A.
+Dòng cuối gồm N số nguyên, mô tả vector B.
+Các hệ số có giá trị tuyệt đối không vượt quá 1000.
+Output: 
+Với mỗi test in ra đáp án tìm được trên một dòng, in ra 3 chữ số sau dấu phảy. Nếu hệ vô nghiệm hoặc có vô số nghiệm, in ra -1.
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+3
+1 2 5
+4 5 6
+7 8 9
+10 11 12
+2
+1 1
+2 2
+2 4
+2
+1 2
+1 2
+3 4
+ 
+-----------------OUTPUT 0-----------------
+-9.333 9.667 0.000
+-1
+-1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,44 @@
+ID: PYKT13016
+Problem's name: SỐ MŨ
+Type: BÀI TẬP NÂNG CAO
+Topic: DANH SÁCH
+
+
+_______________________________________________________________________________
+Tìm số nguyên x nhỏ nhất sao cho ax = b modulo M.
+Input:
+Dòng đầu tiên là số lượng bộ test T (1 ≤ T ≤ 10).
+Mỗi test gồm 3 số nguyên a, b, M (2 ≤ M ≤ 1010, 1 ≤ a, b, ≤ M).
+Input đảm bảo gcd(a, M) = 1.
+Output: 
+Với mỗi test in ra số nguyên x nhỏ nhất tìm được. Nếu không có đáp án, in ra -1.
+Ví dụ:
+Input:
+Output:
+4
+3 2 5
+2 5 11
+3 2 100
+53849 260761 306148
+  3
+4
+-1
+7452
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+3 2 5
+2 5 11
+3 2 100
+53849 260761 306148
+ 
+-----------------OUTPUT 0-----------------
+3
+4
+-1
+7452
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb
